@@ -1,0 +1,11 @@
+<% layout('layouts/boilerplate') -%> 
+    <h1>All Schools</h1>
+    <div>
+        <a href="/schools/new">Add School</a>
+    </div>
+     <ul>
+        <% for (let school of schools ) {  %>
+        <li> <a href='schools/<%=school.id%>'><%= school.title%></a> </li>
+       <% } %>
+     </ul>
+

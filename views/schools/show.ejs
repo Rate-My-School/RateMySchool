@@ -1,0 +1,15 @@
+<% layout('layouts/boilerplate') -%> 
+<body>
+    <h1><%= school.title %></h1>
+    <h2><%= school.location %></h2>
+    <img style="width:400px" src="/img/uni.jpg" alt="">
+    <h2><%= school.tuition %></h2>
+    <div>  <a href="/schools/<%= school._id %>/edit">Edit</a></div>
+    <div>
+        <form action="/schools/<%=school._id%>?_method=DELETE" method="POST">
+            <button>Delete</button>
+        </form>
+    </div>
+    <footer>
+        <a href="/schools">All Schools</a>
+    </footer>

@@ -1,0 +1,26 @@
+#footer {
+    background:  #222831;
+    color: #fff;
+    padding: 25px 0;
+    width: 100%;
+    margin-top: auto;
+   
+}
+
+#footer .container {
+    text-align: center;
+}
+
+
+#footer .container .info {
+    font-size: 1rem;
+    font-weight: 800;
+ 
+    
+    
+}
+
+#footer .container .info .highlighter{
+    color: #00ADB5;
+    
+}

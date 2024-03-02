@@ -1,0 +1,17 @@
+<% layout('layouts/boilerplate') -%> 
+    <h1>Edit School</h1>
+
+
+    <form action="/schools/<%=school._id%>?_method=PUT" method="POST">
+        <div>
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" value="<%=school.title %>"   >
+        </div>
+        <div>
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" value="<%=school.location %>">
+        </div>
+        <button>Update School</button>
+    </form>
+    <a href="/schools/<%= school._id %>">Back to School</a>
+    

@@ -1,0 +1,30 @@
+
+
+@import url('nav.css');
+@import url('homepage.css');
+@import url('footer.css');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto" ;
+    
+  
+}
+
+a {
+    text-decoration: none;
+    
+    
+}
+
+body {
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+

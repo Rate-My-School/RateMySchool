@@ -1,0 +1,72 @@
+
+
+#nav {
+ background: #222831;
+ color: #fff;
+ padding: 15px 0;
+}
+
+
+#nav  .logo {
+   
+    font-size: 2rem;
+    font-weight: 800;
+ 
+ }
+
+ #nav  .logo .highlighter {
+   
+   color: #00ADB5;
+ 
+ }
+
+
+ 
+#nav a {
+    color: #fff;
+      
+  
+}
+
+
+
+
+#nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+   
+
+}
+
+#nav .container .left .group {
+    font-weight: 400;
+  
+    display: inline-block;
+    transform: translatex(50px);
+ 
+  
+   
+
+}
+#nav .container .left .group a {
+    padding: 10px;
+    font-size: 1.2rem;
+    
+ 
+  
+   
+
+}
+
+
+
+#nav .container .right  a {
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: all .2s ease-in-out;
+ 
+
+}
