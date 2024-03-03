@@ -139,3 +139,37 @@
     font-size: .9rem;
    
   }
+  #pagination-sect {
+    padding: 20px 0 70px  0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #pagination-sect .right-arrow i {
+    font-size: 1.4rem;
+    padding: 10px;
+  
+  }
+  #pagination-sect .left-arrow i {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+
+
+
+  #pagination-sect .pagination {
+     display: flex;
+     list-style: none;
+     align-items: center;
+     justify-content: center;
+
+  }
+
+  #pagination-sect .pagination .pagin-items a {
+    padding: 25px;
+    font-size: 1.4rem;
+    color: #222831;
+    font-weight: 600;
+ }
