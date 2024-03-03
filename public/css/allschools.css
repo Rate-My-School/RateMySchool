@@ -1,0 +1,141 @@
+
+#hero {
+    background: url("/img/uni.jpg") center center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+}
+
+#hero .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 1;
+  }
+  
+  
+
+
+#hero .heading {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    color: #fff;
+}
+
+#hero .heading span {
+   font-size: 3rem;
+   font-weight: 600;
+}
+
+
+#hero .search-area {
+    position: relative;
+    text-align: center;
+    z-index: 5;
+}
+
+#hero .search-area .search {
+    top: 25px;
+    background: #fff;
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    outline: none;
+    height: 40px;
+    padding: 0px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+
+    
+   
+}
+
+#hero .search-area .search i {
+ 
+  font-size: 1rem;
+  color: #222831;
+  position: relative;
+  left: 5px;
+  background: #fff;
+  font-size: 1.2rem;
+
+}
+
+#hero .search-area .search .input {
+ 
+
+   outline: none;
+   border: none;
+   width: 550px;
+   height: 30px;
+    color: #222831;
+   margin-left: 15px;
+   font-size: 1.2rem;
+   padding: 10px 0;
+  
+ 
+}
+
+
+
+
+
+
+
+#boxes {
+    padding: 80px 0;
+
+}
+
+
+#boxes .container {
+    /* width: 1300px; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 310px 310px 310px 310px;
+    justify-content: center;
+    gap: 30px 30px;
+   
+}
+#boxes .container .box {
+    display: block;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    background: #fff;
+    border-radius: 10px 10px 10px 10px; 
+}
+
+#boxes .container .box .image img {
+   width: 310px;
+   border-radius: 10px 10px 0px 0px; 
+}
+
+
+#boxes .container .box .info{
+    color: #222831;
+    padding: 15px 15px 30px 13px;
+    
+  
+ }
+
+ #boxes .container .box .info .title{
+   font-size: 1.2rem;
+   font-weight: 600;
+  
+ }
+
+ #boxes .container .box .info .info-sub{
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .9rem;
+   
+  }
