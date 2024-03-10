@@ -7,7 +7,8 @@ const SchoolSchema = new Schema({
     title: String,
     image: String,
     tuition: Number,
-    descritption: String,
+    // descritption: String,
+    rating:Number,
     location: String
 
 })

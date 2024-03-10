@@ -45,10 +45,11 @@ app.get('/schools/new', (req,res) => {
 })
 
 app.post('/schools', async (req, res) => {
-    const {title} =  req.body
+    // res.send(req.body.schoolname)
+    const {schoolname} =  req.body
     const {location} = req.body
     
-    const school = new School({title: title, location: location} )
+    const school = new School({title: schoolname, location: location} )
     await school.save();
     res.redirect(`/schools/${school._id}`)
 

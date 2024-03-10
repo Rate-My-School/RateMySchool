@@ -1,0 +1,209 @@
+
+
+#post-section {
+    min-height: 100vh;
+    position: relative;
+}
+
+#post-section .container {
+    display: grid;
+   grid-template-columns: 800px 100vw;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top: 0;
+    overflow: hidden;
+   
+}
+#post-section .container .left {
+
+   text-align: center;
+}
+
+#post-section .container .left .heading {
+    padding: 50px 0 20px;
+    text-align: center;
+
+
+}
+
+#post-section .container .left .heading h3 {
+   font-size: 2rem;
+   color: #222831;
+
+   font-weight: 800;
+
+}
+
+#post-section .container .left .form  {
+
+ 
+   width: 650px;
+   margin: 0 auto;
+   background: #fff;
+   border-radius: 5px;
+   /* box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28); */
+   padding: 20px 0px;
+   /* background: green; */
+   
+ }
+
+ #post-section .container .left .form input {
+    font-size: 1.5rem;
+    outline: none;
+    border: 1px solid   rgba(34, 40, 49, .3);
+    border-radius: 5px;
+    padding: 5px 5px;
+
+    
+
+ }
+
+ #post-section .container .left .form .first-row  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    
+ 
+ }
+
+ #post-section .container .left .form  label  {
+    display: block;
+    margin: 20px 0 20px;
+    font-weight: 500;
+    color: #222831;
+  
+  }
+
+ #post-section .container .left .form .first-row .name  {
+    padding: 10px ;
+ 
+ }
+
+
+ 
+ #post-section .container .left .form .first-row .location  {
+    padding: 10px ;
+ 
+ }
+ #post-section .container .left .form .imageurl {
+   width: 600px;
+   margin: 0 auto;
+   position: relative;
+   text-align: left;
+ }
+
+ #post-section .container .left .form .imageurl #imgurl {
+   width: 100%;
+
+  }
+
+ #post-section .container .left .form .third-row  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+ 
+ }
+ 
+
+ #post-section .container .left .form .third-row .tuition  {
+    padding: 10px;
+
+    
+ }
+
+ #post-section .container .left .form .third-row .tuition .dollar-symbol  {
+    background: #222831;
+    
+    padding: 11px 11px;
+    color: #fff;
+    position: relative;
+    left: 6px;
+    border-radius: 5px;
+    bottom: 3px;
+    display: none;
+
+    
+ }
+
+ #post-section .container .left .form .third-row .tuition input  {
+    
+    width: 530px;
+    
+
+    
+ }
+ 
+
+ #post-section .container .left .form .post-btn {
+    text-align: left;
+    padding: 20px 0;
+
+ }
+
+ #post-section .container .left .form .post-btn button {
+  width: 200px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background: #EEEEEE ;
+  color: #222831;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  top: 20px;
+  left: 23px
+ }
+
+
+
+
+#post-section .container .right {
+   
+    position: relative;
+
+
+   
+}
+
+#post-section .container .right .bg-pic {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+
+   background: url('/img/uni.jpg') center center no-repeat;
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+   color: #fff;
+ 
+}
+
+
+#post-section .container .right .bg-pic .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 40, 49, .9);				
+    z-index: 1;
+
+}
+#post-section .container .right .bg-pic .title {
+    text-align: center;
+ 
+    width: calc(100vw - 50vw) 
+
+}
+
+#post-section .container .right .bg-pic .title h3 {
+  position: relative;
+  font-size: 3rem;
+  z-index: 5;
+  font-weight: 800;
+  
+
+}

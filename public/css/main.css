@@ -4,6 +4,7 @@
 @import url('homepage.css');
 @import url('footer.css');
 @import url('allschools.css');
+@import url('postschool.css');
 
 
 * {
@@ -27,5 +28,9 @@ body {
     display: flex;
     flex-direction: column;
     
+}
+
+.highlighter {
+    color: #00ADB5;
 }
 
