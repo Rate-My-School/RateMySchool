@@ -71,9 +71,9 @@ app.get('/schools/:id/edit', async (req, res) => {
 
 app.put('/schools/:id', async (req, res) => {
     const {id} = req.params
-    const {title} =  req.body
+    const {schoolname} =  req.body
     const {location} = req.body
-    const school = await School.findByIdAndUpdate(id, {title: title , location: location})
+    const school = await School.findByIdAndUpdate(id, {title: schoolname , location: location})
     res.redirect(`/schools/${school._id}`) 
   
 })
