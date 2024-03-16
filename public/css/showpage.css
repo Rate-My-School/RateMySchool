@@ -1,146 +1,117 @@
 #show-page .container {
-
-    width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 800px 400px ;
-    padding: 50px 0;
-    
-
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 800px 400px;
+  padding: 50px 0;
 }
 
 #show-page .container .left-side .image img {
-
-    
-    width: 700px;
-    border-radius: 20px;
-    height: 470px;
-
+  width: 700px;
+  border-radius: 20px;
+  height: 470px;
 }
 
-
-#show-page .container .left-side .info  {
-    width: 700px;
-    margin-top: 20px;
-    color: #222831;
-    
-   
-
+#show-page .container .left-side .info {
+  width: 700px;
+  margin-top: 20px;
+  color: #222831;
 }
 #show-page .container .left-side .info .info-container {
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
+  justify-content: space-between;
 }
 
 #show-page .container .left-side .info .info-container .title {
-    font-size: 1.6rem;
-    
+  font-size: 1.6rem;
 }
 
 #show-page .container .left-side .info .info-container .tution {
-    font-size: 1.6rem;
-    
+  font-size: 1.6rem;
 }
 
 #show-page .container .left-side .btns {
-    padding: 15px 0;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-
-#show-page .container .left-side .btns .edit-btn a  {
-    padding: 10px 15px;
-    background: #00ADB5 ;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-
+#show-page .container .left-side .btns .edit-btn a {
+  padding: 10px 15px;
+  background: #00adb5;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-
-
-#show-page .container .left-side .btns .delete-btn button  {
-
-    padding: 10px 15px;
-    background: #222831 ;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-   font-size: 1rem;
-    border: none;
-
+#show-page .container .left-side .btns .delete-btn button {
+  padding: 10px 15px;
+  background: #222831;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
 }
 
 #show-page .container .right-side .heading h3 {
-    font-size: 1.6rem;
-
+  font-size: 1.6rem;
 }
 
 #show-page .container .right-side .stars {
-    padding: 15px 0 20px;
-
+  padding: 15px 0 20px;
 }
 
-#show-page .container .right-side .text-box textarea{
-    
- width: 100%;
- height: 150px;
- border: 2px solid #222831;
+#show-page .container .right-side .text-box textarea {
+  width: 100%;
+  height: 150px;
+  border: 2px solid #222831;
 
- color: #222831;
- resize: none;
- border-radius: 5px;
- padding: 12px 20px;
- font-size: 1.1rem;
+  color: #222831;
+  resize: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 1.1rem;
 }
-#show-page .container .right-side .submit  {
-    margin-top: 5px;
+#show-page .container .right-side .submit {
+  margin-top: 5px;
 }
 
-#show-page .container .right-side .submit button{
-    
-    background: #eeeeee;
-    color: #222831;
-    padding: 10px 15px;
-    font-size: 1rem;
-    border:none;
-    border-radius: 5px;
-    font-weight: 500;
-    cursor: pointer;
-   }
+#show-page .container .right-side .submit button {
+  background: #eeeeee;
+  color: #222831;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
 
-   #show-page .container .right-side .rating .rating-header {
-    background: #00ADB5;
-    position: relative;
-    top: 50px;
-    text-align: center;
-    border-radius: 5px 5px 5px 5px;
-    padding: 5px 0;
-    
-   }
+#show-page .container .right-side .rating .rating-header {
+  background: #00adb5;
+  position: relative;
+  top: 50px;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px 0;
+}
 
-   #show-page .container .right-side .rating .rating-container {
-    display: flex;
- 
-    height: 300px;
-    align-items: center;
-    justify-content: center;
-   }
+#show-page .container .right-side .rating .rating-container {
+  display: flex;
 
-   #show-page .container .right-side .rating .rating-container  h3 {
-    
-    font-size: 10rem;
-    font-weight: 600;
-   }
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
 
-   #show-page .container .right-side .rating .rating-container  .fa-star {
-    
-    color: #00ADB5 ;
-    font-size: 7rem;
-   }
+#show-page .container .right-side .rating .rating-container h3 {
+  font-size: 10rem;
+  font-weight: 600;
+}
 
- 
+#show-page .container .right-side .rating .rating-container .fa-star {
+  color: #00adb5;
+  font-size: 7rem;
+}
