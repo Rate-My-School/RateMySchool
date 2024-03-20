@@ -91,11 +91,12 @@
 
 #show-page .container .right-side .rating .rating-header {
   background: #00adb5;
-  position: relative;
   top: 50px;
   text-align: center;
   border-radius: 5px 5px 5px 5px;
   padding: 5px 0;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 #show-page .container .right-side .rating .rating-container {
