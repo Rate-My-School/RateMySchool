@@ -41,48 +41,50 @@
         </div>
       </div>
     </div>
-    <form action="/schools/<%=school._id%>/reviews" method="POST">
-      <div class="right-side">
-        <div class="heading">
-          <h3>Leave A Review</h3>
-        </div>
-        <div class="stars">
-          <p class="starability-result" data-rating="3"></p>
-          <label for="rating">Rating</label>
-          <select name="review[rating]" id="rating">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-        </div>
 
-        <div class="text-box">
-          <textarea name="review[body]"></textarea>
-        </div>
-        <div class="submit">
-          <button>Submit</button>
-        </div>
+    <div class="right-side">
+      <div class="heading">
+        <h3>Leave A Review</h3>
+      </div>
+      <div>
+        <form action="/schools/<%=school._id%>/reviews" method="POST">
+          <div class="stars">
+            <p class="starability-result" data-rating="3"></p>
+            <label for="rating">Rating</label>
+            <select name="review[rating]" id="rating">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
 
-        <div class="rating">
-          <div class="rating-header">
-            <h2>Rating</h2>
+          <div class="text-box">
+            <textarea name="review[body]"></textarea>
           </div>
-          <div class="ratings">
-            <%for(review of school.reviews){%>
-            <p>Rating: <%=review.rating%></p>
-            <p>Body: <%=review.body%></p>
-            <form
-              action="/schools/<%=school._id%>/reviews/<%=review._id%>?_method=DELETE"
-              method="POST"
-            >
-              <button>Delete</button>
-            </form>
-            <% } %>
+          <div class="submit">
+            <button>Submit</button>
           </div>
+        </form>
+      </div>
+      <div class="rating">
+        <div class="rating-header">
+          <h2>Rating</h2>
+        </div>
+        <div class="ratings">
+          <%for(review of school.reviews){%>
+          <p>Rating: <%=review.rating%></p>
+          <p>Body: <%=review.body%></p>
+          <form
+            action="/schools/<%=school._id%>/reviews/<%=review._id%>?_method=DELETE"
+            method="POST"
+          >
+            <button>Delete</button>
+          </form>
+          <% } %>
         </div>
       </div>
-    </form>
+    </div>
   </div>
 </section>
