@@ -2,8 +2,12 @@ const express = require('express')
 
 const engine = require('ejs-mate')
 const mongoose = require('mongoose');
-
+const Joi = require('joi')
 const School = require('./models/schools')
+const Review = require('./models/reviews')
+const ExpressError = require('./utils/ExpressError')
+const wrapAsync = require('./utils/wrapAsync')
+const { schoolSchema, reviewSchema } = require('./schemas.js')
 const methodOveride = require('method-override')
 const path = require('path');
 mongoose.connect('mongodb://127.0.0.1:27017/ratemyschool');
@@ -15,7 +19,7 @@ app.set('views', path.join(__dirname, 'views'))
 
 app.engine('ejs', engine);
 
-app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({ extended: true }))
 
 
 const db = mongoose.connection;
@@ -26,69 +30,98 @@ db.once("open", () => {
 
 
 
-app.get("/" , ( req, res) => {
-  
+app.get("/", (req, res) => {
+
     res.render("home")
 })
 
 
-app.get('/schools', async (req, res) => {
+app.get('/schools', wrapAsync(async (req, res) => {
 
-     const schools = await School.find({})
+    const schools = await School.find({})
 
-     res.render('schools/index', {schools})
-})
+    res.render('schools/index', { schools })
+}))
 
 
-app.get('/schools/new', (req,res) => {
+app.get('/schools/new', (req, res) => {
     res.render('schools/new')
 })
 
-app.post('/schools', async (req, res) => {
-    // res.send(req.body.schoolname)
-    const {schoolname} =  req.body
-    const {location} = req.body
-    
-    const school = new School({title: schoolname, location: location} )
+
+const schoolValidator = (req, res, next) => {
+
+    const { error } = schoolSchema.validate(req.body)
+    if (error) {
+        const msg = error.details.map(el => el.message)
+        throw new ExpressError(msg, 404)
+    } else {
+        next()
+    }
+}
+
+const reviewValidator = (req, res, next) => {
+    const { error } = reviewSchema.validate(req.body)
+    if (error) {
+        const msg = error.details.map(el => el.message)
+        throw new ExpressError(msg, 404)
+    } else {
+        next()
+    }
+}
+
+app.post('/schools', schoolValidator, wrapAsync(async (req, res) => {
+    const school = new School(req.body.school)
     await school.save();
     res.redirect(`/schools/${school._id}`)
+}))
 
-})
+app.get('/schools/:id', wrapAsync(async (req, res) => {
+    const school = await School.findById(req.params.id).populate('reviews')
+    console.log(school)
+    res.render('schools/show', { school })
+}))
 
-
-app.get('/schools/:id', async (req, res) => {
-
+app.get('/schools/:id/edit', wrapAsync(async (req, res) => {
     const school = await School.findById(req.params.id)
+    res.render('schools/edit', { school })
+}))
 
-    res.render('schools/show', {school})
-})
-
-app.get('/schools/:id/edit', async (req, res) => {
+app.put('/schools/:id', schoolValidator, wrapAsync(async (req, res) => {
+    const { id } = req.params
+    const school = await School.findByIdAndUpdate(id, { ...req.body.school })
+    res.redirect(`/schools/${school._id}`)
+}))
+app.post('/schools/:id/reviews', reviewValidator, wrapAsync(async (req, res) => {
     const school = await School.findById(req.params.id)
-    res.render('schools/edit', {school})
+    const review = new Review(req.body.review)
+    school.reviews.push(review)
+    await review.save()
+    await school.save()
+    res.redirect(`/schools/${school._id}`)
 
-})
+}))
+app.delete('/schools/:id/reviews/:reviewId', wrapAsync(async (req, res) => {
 
-app.put('/schools/:id', async (req, res) => {
-    const {id} = req.params
-    const {schoolname} =  req.body
-    const {location} = req.body
-    const school = await School.findByIdAndUpdate(id, {title: schoolname , location: location})
-    res.redirect(`/schools/${school._id}`) 
-  
-})
+    const school = await School.findByIdAndUpdate(req.params.id, { $pull: { reviews: req.params.reviewId } })
+    const review = await Review.findByIdAndDelete(req.params.reviewId)
+    res.redirect(`/schools/${school._id}`)
+}))
 
-
-
-
-
-app.delete('/schools/:id', async (req, res) => {
-    const {id} = req.params
+app.delete('/schools/:id', wrapAsync(async (req, res) => {
+    const { id } = req.params
     await School.findByIdAndDelete(id);
     res.redirect('/schools')
+}))
+app.all('*', (req, res, next) => {
+    next(new ExpressError('Page Not Found', 404))
 })
+app.use((err, req, res, next) => {
+    const { statusCode = 500 } = err
+    if (!err.message) err.message = "Something Went Wrong"
+    res.status(statusCode).render('error', { err })
 
-
+})
 
 app.listen(3000, () => {
     console.log("serving on port 3000")
