@@ -1,90 +1,90 @@
-<% layout('layouts/boilerplate') -%> 
-<link rel="stylesheet" href="/stylesheets/stars.css">
+<% layout('layouts/boilerplate') -%>
+<link rel="stylesheet" href="/stylesheets/stars.css" />
 
 <section id="show-page">
-
-    <div class="container">
-        <div class="left-side">
-            <div class="image">
-                <img  src="/img/uni.jpg" alt="">
+  <div class="container">
+    <div class="left-side">
+      <div class="image">
+        <img src="/img/uni.jpg" alt="" />
+      </div>
+      <div class="info">
+        <div class="info-container">
+          <div class="left">
+            <div class="title">
+              <h2><%= school.title %></h2>
             </div>
-            <div class="info">
-                <div class="info-container">
-                    <div class="left">
-                        <div class="title">
-                            <h2>
-                                <%= school.title %>
-
-                            </h2>
-                            
-                        </div>
-                        <div class="location">
-                            <h3>
-                                <%= school.location %>
-
-                            </h3>
-                           
-                        </div>
-                        <div class="btns">
-                            <div class="edit-btn">  <a href="/schools/<%= school._id %>/edit">Edit</a></div>
-                            <form class="delete-btn" action="/schools/<%=school._id%>?_method=DELETE" method="POST">
-                                <button>Delete</button>
-                            </form>
-
-                        </div>
-                        
-                    </div>
-                    <div class="right">
-                        <div class="tution">
-                            <h3>
-                                <%= school.tuition %>/yr
-
-                            </h3>
-                            
-                        </div>
-
-                    </div>
-
-                </div>
+            <div class="location">
+              <h3><%= school.location %></h3>
             </div>
-
-        </div>
-        <div class="right-side">
-            <div class="heading">
-                <h3>Leave A Review</h3>
+            <div class="btns">
+              <div class="edit-btn">
+                <a href="/schools/<%= school._id %>/edit">Edit</a>
+              </div>
+              <form
+                class="delete-btn"
+                action="/schools/<%=school._id%>?_method=DELETE"
+                method="POST"
+              >
+                <button>Delete</button>
+              </form>
             </div>
-          <div class="stars">
-            <p class="starability-result" data-rating="3">
-              
-              </p>
-
           </div>
-            
-            <div class="text-box">
-                <textarea></textarea>
+          <div class="right">
+            <div class="tution">
+              <h3><%= school.tuition %>/yr</h3>
             </div>
-            <div class="submit">
-                <button>Submit</button>
-        
+            <div class="rating-container">
+              <h3><%=school.rating%>/5</h3>
+              <i class="fa-solid fa-star"></i>
             </div>
-            
-        
-            
-            <div class="rating">
-                <div class="rating-header">
-                    <h2>Rating</h2>
-                </div>
-                <div class="rating-container">
-                    <h3>3/5</h3>
-                <i class="fa-solid fa-star"></i>
-
-                </div>
-                
-                
-                
-            </div>
-
+          </div>
         </div>
+      </div>
     </div>
-</section>
 
+    <div class="right-side">
+      <div class="heading">
+        <h3>Leave A Review</h3>
+      </div>
+      <div>
+        <form action="/schools/<%=school._id%>/reviews" method="POST">
+          <div class="stars">
+            <p class="starability-result" data-rating="3"></p>
+            <label for="rating">Rating</label>
+            <select name="review[rating]" id="rating">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+
+          <div class="text-box">
+            <textarea name="review[body]"></textarea>
+          </div>
+          <div class="submit">
+            <button>Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="rating">
+        <div class="rating-header">
+          <h2>Rating</h2>
+        </div>
+        <div class="ratings">
+          <%for(review of school.reviews){%>
+          <p>Rating: <%=review.rating%></p>
+          <p>Body: <%=review.body%></p>
+          <form
+            action="/schools/<%=school._id%>/reviews/<%=review._id%>?_method=DELETE"
+            method="POST"
+          >
+            <button>Delete</button>
+          </form>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
