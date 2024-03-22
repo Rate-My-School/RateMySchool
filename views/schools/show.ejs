@@ -73,7 +73,7 @@
           <h2>Rating</h2>
         </div>
         <div class="ratings">
-          <%for(review of school.reviews){%>
+          <%for(review of school.reviews){%> <%//if(review.body){%>
           <p>Rating: <%=review.rating%></p>
           <p>Body: <%=review.body%></p>
           <form
@@ -82,7 +82,7 @@
           >
             <button>Delete</button>
           </form>
-          <% } %>
+          <%// }%> <% }%>
         </div>
       </div>
     </div>

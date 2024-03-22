@@ -61,6 +61,7 @@ const schoolValidator = (req, res, next) => {
 }
 
 const reviewValidator = (req, res, next) => {
+    console.log(req.body)
     const { error } = reviewSchema.validate(req.body)
     if (error) {
         const msg = error.details.map(el => el.message)

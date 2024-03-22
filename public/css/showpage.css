@@ -30,6 +30,27 @@
   font-size: 1.6rem;
 }
 
+#show-page
+  .container
+  .left-side
+  .info
+  .info-container
+  .right
+  .rating-container {
+  display: flex;
+  align-items: center;
+}
+#show-page
+  .container
+  .left-side
+  .info
+  .info-container
+  .right
+  .rating-container
+  .fa-star {
+  margin-left: 2px;
+}
+
 #show-page .container .left-side .btns {
   padding: 15px 0;
   display: flex;
@@ -101,7 +122,6 @@
 
 #show-page .container .right-side .rating .rating-container {
   display: flex;
-
   height: 300px;
   align-items: center;
   justify-content: center;
