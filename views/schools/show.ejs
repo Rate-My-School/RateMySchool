@@ -1,6 +1,15 @@
 <% layout('layouts/boilerplate') -%>
 <link rel="stylesheet" href="/stylesheets/stars.css" />
+<% 
+  let char;
 
+if(school.reviews.length === 1){
+  char = " "
+
+
+} else {
+  char = "s"
+} %>
 <section id="show-page">
   <div class="container">
     <div class="left-side">
@@ -70,19 +79,32 @@
       </div>
       <div class="rating">
         <div class="rating-header">
-          <h2>Rating</h2>
+          <h2>Rating<%=char%></h2>
         </div>
         <div class="ratings">
-          <%for(review of school.reviews){%> <%//if(review.body){%>
-          <p>Rating: <%=review.rating%></p>
-          <p>Body: <%=review.body%></p>
-          <form
-            action="/schools/<%=school._id%>/reviews/<%=review._id%>?_method=DELETE"
-            method="POST"
-          >
-            <button>Delete</button>
-          </form>
-          <%// }%> <% }%>
+        
+            <%for(review of school.reviews){%> <%//if(review.body){%>
+              <div class="star-rating-container">
+               <p class="starability-result " data-rating="<%=review.rating%>"></p>
+              </div>
+     
+               <p class="rating-body"><%=review.body%></p>
+               <form
+                 action="/schools/<%=school._id%>/reviews/<%=review._id%>?_method=DELETE"
+                 method="POST"
+               >
+                <div class="btn-container">
+                 <button class="rating-btn">Delete</button>
+     
+                </div>
+                 
+               </form>
+          
+               <%// }%> <% }%>
+            
+          
+              
+         
         </div>
       </div>
     </div>
