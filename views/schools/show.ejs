@@ -1,15 +1,7 @@
 <% layout('layouts/boilerplate') -%>
 <link rel="stylesheet" href="/stylesheets/stars.css" />
-<% 
-  let char;
-
-if(school.reviews.length === 1){
-  char = " "
-
-
-} else {
-  char = "s"
-} %>
+<% let char; if(school.reviews.length === 1){ char = " " } else { char = "s" }
+%>
 <section id="show-page">
   <div class="container">
     <div class="left-side">
@@ -58,15 +50,31 @@ if(school.reviews.length === 1){
       <div>
         <form action="/schools/<%=school._id%>/reviews" method="POST">
           <div class="stars">
-            <p class="starability-result" data-rating="3"></p>
-            <label for="rating">Rating</label>
-            <select name="review[rating]" id="rating">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-            </select>
+            <div class="list-choice">
+              <div class="list-choice-title">Rate Your School</div>
+              <div class="list-choice-objects">
+                <label>
+                  <input  value="1" type="radio" name="review[rating]" />
+                  <span>1</span>
+                </label>
+                <label>
+                  <input value="2" type="radio" name="review[rating]" />
+                  <span>2</span>
+                </label>
+                <label>
+                  <input value="3" type="radio" name="review[rating]" />
+                  <span>3</span>
+                </label>
+                <label>
+                  <input value="4" type="radio" name="review[rating]" />
+                  <span>4</span>
+                </label>
+                <label>
+                  <input value="5" type="radio" name="review[rating]" />
+                  <span>5</span>
+                </label>
+              </div>
+            </div>
           </div>
 
           <div class="text-box">
@@ -82,29 +90,22 @@ if(school.reviews.length === 1){
           <h2>Rating<%=char%></h2>
         </div>
         <div class="ratings">
-        
-            <%for(review of school.reviews){%> <%//if(review.body){%>
-              <div class="star-rating-container">
-               <p class="starability-result " data-rating="<%=review.rating%>"></p>
-              </div>
-     
-               <p class="rating-body"><%=review.body%></p>
-               <form
-                 action="/schools/<%=school._id%>/reviews/<%=review._id%>?_method=DELETE"
-                 method="POST"
-               >
-                <div class="btn-container">
-                 <button class="rating-btn">Delete</button>
-     
-                </div>
-                 
-               </form>
-          
-               <%// }%> <% }%>
-            
-          
-              
-         
+          <%for(review of school.reviews){%> <%//if(review.body){%>
+          <div class="star-rating-container">
+            <p class="starability-result" data-rating="<%=review.rating%>"></p>
+          </div>
+
+          <p class="rating-body"><%=review.body%></p>
+          <form
+            action="/schools/<%=school._id%>/reviews/<%=review._id%>?_method=DELETE"
+            method="POST"
+          >
+            <div class="btn-container">
+              <button class="rating-btn">Delete</button>
+            </div>
+          </form>
+
+          <%// }%> <% }%>
         </div>
       </div>
     </div>

@@ -189,3 +189,91 @@ padding: 20px 0  0;
   color: #00adb5;
   font-size: 1.6rem;
 }
+
+
+
+.list-choice{
+  width:300px;
+  margin:1em auto;
+  position: relative;
+  cursor: pointer;  
+}
+.list-choice input[type="radio"]{
+  position:absolute;
+  left:-9999px;
+}
+
+.list-choice-title {
+width: 100%;
+display: block;
+background: #222831;
+text-align: center;
+padding: 0.46em 1em;
+box-sizing: border-box;
+color: #fff;
+
+
+border-radius: 0.2em;
+}
+.list-choice:hover .list-choice-title {
+border-radius:0.2em 0.2em 0 0;
+}
+.list-choice-objects label:nth-last-of-type(1) span{
+  border-radius:0 0 0.2em 0.2em;
+}
+.list-choice input[type="radio"] + span {
+color: #FFF;
+background: #222831;
+padding: 0.55em 1em;
+display: block;
+text-align: center;
+box-sizing: border-box;
+cursor: pointer;
+width: 100%;
+}
+.list-choice-objects {
+position: absolute;
+top: 0;
+padding-top: 2.1em;
+box-sizing: border-box;
+width: 100%;
+overflow: hidden;
+max-height: 0;
+transition: all 250ms ease;
+}
+.list-choice:hover .list-choice-objects  input[type="radio"] + span {
+position: relative;
+top: 0;
+transition: all 250ms ease-in-out;
+}
+.list-choice:hover input[type="radio"] + span:hover {
+background:#BBB;
+}
+.list-choice:hover input[type="radio"]:checked + span:hover {
+background: #00ADB5;
+}
+.list-choice input[type="radio"]:checked + span {
+background: #00ADB5;
+position: absolute;
+top: 0em;
+border-radius: 0.2em;
+}
+.list-choice:hover input[type="radio"]:checked + span {
+border-radius: 0;
+}
+.list-choice:hover .list-choice-objects label:nth-last-of-type(1) input[type="radio"]:checked + span{
+  border-radius:0 0 0.2em 0.2em;
+}
+
+.list-choice:hover .list-choice-objects {
+max-height: 540px;
+overflow: scroll;
+}
+
+.list-choice:hover .list-choice-objects::-webkit-scrollbar {
+  display: none;
+}
+
+.display-none-select {
+  display: none;
+}
