@@ -1,17 +1,29 @@
 <% layout('layouts/boilerplate') %> <%-include('../partials/flash')%>
-<h1>Register</h1>
-<form action="/register" method="POST" class="needs-validation" novalidate>
-  <div class="">
-    <label class="" for="username">Username</label>
-    <input class="" type="text" id="username" name="username" required />
+<section id="register">
+  <div class="container">
+    <form action="/register" class="form" method="POST"  novalidate>
+      <div class="logo">RateMy<span class="highlighter">School</span></div>
+      <div class="heading">
+        <h2>Register</h2>
+      </div>
+      <div class="username">
+        <label class="" for="username">Username</label>
+        <input placeholder="Username" class="" type="text" id="username" name="username" required />
+      </div>
+      <div class="email">
+        <label class="" for="email">Email</label>
+        <input placeholder="Email" class="" type="email" id="email" name="email" required />
+      </div>
+      <div class="password">
+        <label class="" for="password">Password</label>
+        <input placeholder="Password" class="" type="password" id="password" name="password" required />
+      </div>
+      <button class="btn">Register</button>
+    </form>
+
   </div>
-  <div class="">
-    <label class="" for="email">Email</label>
-    <input class="" type="email" id="email" name="email" required />
-  </div>
-  <div class="">
-    <label class="" for="password">Password</label>
-    <input class="" type="password" id="password" name="password" required />
-  </div>
-  <button class="">Register</button>
-</form>
+
+</section>
+
+
+
