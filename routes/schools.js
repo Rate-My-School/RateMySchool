@@ -78,7 +78,7 @@ router.delete(
   wrapAsync(async (req, res) => {
     const { id } = req.params;
     await School.findByIdAndDelete(id);
-    eq.flash("success", "School has been removed!");
+    req.flash("success", "School has been removed!");
     res.redirect("/schools");
   })
 );
