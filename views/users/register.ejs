@@ -1,0 +1,17 @@
+<% layout('layouts/boilerplate') %> <%-include('../partials/flash')%>
+<h1>Register</h1>
+<form action="/register" method="POST" class="needs-validation" novalidate>
+  <div class="">
+    <label class="" for="username">Username</label>
+    <input class="" type="text" id="username" name="username" required />
+  </div>
+  <div class="">
+    <label class="" for="email">Email</label>
+    <input class="" type="email" id="email" name="email" required />
+  </div>
+  <div class="">
+    <label class="" for="password">Password</label>
+    <input class="" type="password" id="password" name="password" required />
+  </div>
+  <button class="">Register</button>
+</form>
