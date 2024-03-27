@@ -1,12 +1,11 @@
-<% layout('layouts/boilerplate') -%>
+<% layout('layouts/boilerplate') -%> <%-include('../partials/flash')%>
 <link rel="stylesheet" href="/stylesheets/stars.css" />
-<% let char; if(school.reviews.length === 1){ char = " " } else { char = "s" }
-%>
+<% let char; if(school.reviews.length === 1){ char = " " } else { char = "s" } %>
 <section id="show-page">
   <div class="container">
     <div class="left-side">
       <div class="image">
-        <img src="/img/uni.jpg" alt="" />
+        <img src="<%=school.image%>" alt="" />
       </div>
       <div class="info">
         <div class="info-container">
@@ -54,7 +53,7 @@
               <div class="list-choice-title">Rate Your School</div>
               <div class="list-choice-objects">
                 <label>
-                  <input  value="1" type="radio" name="review[rating]" />
+                  <input value="1" type="radio" name="review[rating]" />
                   <span>1</span>
                 </label>
                 <label>

@@ -1,77 +1,67 @@
-<% layout('layouts/boilerplate') -%> 
+<% layout('layouts/boilerplate') -%> <%-include('../partials/flash')%>
 <div id="hero">
-    <div class="heading">
-        <span>All Schools</span>
+  <div class="heading">
+    <span>All Schools</span>
+  </div>
+  <div class="search-area">
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" class="input" />
     </div>
-    <div class="search-area">
-        <div class="search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" class="input">
-        </div>
-    </div>
-    <div class="overlay"></div>
+  </div>
+  <div class="overlay"></div>
 </div>
 
 <div id="boxes">
-    <div class="container">
-        <% for (let school of schools ) {  %>
-        <a href='schools/<%=school.id%>' class="box">
-            <div class="image">
-                <img src="/img/uni2.jpg" alt="">
-            </div>
-            <div class="info">
-                <div class="title">
-                    <span><%= school.title %> </span>
-                </div>
-                <div class="info-sub">
-                    <div>300 reviews</div>
-                    <div class="location"><%= school.location %></div>
-                </div>
-               
-            </div>
-        </a>
-        <% } %>
-    </div>
-
-
+  <div class="container">
+    <% for (let school of schools ) { %>
+    <a href="schools/<%=school.id%>" class="box">
+      <div class="image">
+        <img src="<%=school.image%>" alt="" />
+      </div>
+      <div class="info">
+        <div class="title">
+          <span><%= school.title %> </span>
+        </div>
+        <div class="info-sub">
+          <div>300 reviews</div>
+          <div class="location"><%= school.location %></div>
+        </div>
+      </div>
+    </a>
+    <% } %>
+  </div>
 </div>
 
 <div id="pagination-sect">
- 
-    <div class="left-arrow">
-        <i class="fa-solid fa-arrow-left"></i>
+  <div class="left-arrow">
+    <i class="fa-solid fa-arrow-left"></i>
+  </div>
 
-    </div>
-    
-    <ul class="pagination">
-        
-        <li class="pagin-items">
-            <a href="">1</a>
-        </li>
-        <li class="pagin-items">
-            <a href="">2</a>
-        </li>
-        <li class="pagin-items">
-            <a href="">3</a>
-        </li>
-        <li class="pagin-items">
-            <a href="">4</a>
-        </li>
-        <li class="pagin-items">
-            <a href="">5</a>
-        </li>
-        <li class="pagin-items">
-            <a href="">6</a>
-        </li>
-        <li class="pagin-items">
-            <a href="">7</a>
-        </li>
-    </ul>
-    <div class="right-arrow">
-        <i class="fa-solid fa-arrow-right"></i>
-    </div>
-
+  <ul class="pagination">
+    <li class="pagin-items">
+      <a href="">1</a>
+    </li>
+    <li class="pagin-items">
+      <a href="">2</a>
+    </li>
+    <li class="pagin-items">
+      <a href="">3</a>
+    </li>
+    <li class="pagin-items">
+      <a href="">4</a>
+    </li>
+    <li class="pagin-items">
+      <a href="">5</a>
+    </li>
+    <li class="pagin-items">
+      <a href="">6</a>
+    </li>
+    <li class="pagin-items">
+      <a href="">7</a>
+    </li>
+  </ul>
+  <div class="right-arrow">
+    <i class="fa-solid fa-arrow-right"></i>
+  </div>
 </div>
-
-   
-    
