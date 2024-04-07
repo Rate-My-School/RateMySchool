@@ -277,3 +277,10 @@ overflow: scroll;
 .display-none-select {
   display: none;
 }
+
+
+.forflash {
+  transform: translateY(73px);
+
+    
+}

@@ -1,3 +1,17 @@
+#register {
+   background: #222831;
+}
+
+
+#register .forflash {
+   background: #222831;
+   position: relative;
+   top:-85px;
+
+}
+
+
+
 #register .container {
     text-align: center;
     display: flex;

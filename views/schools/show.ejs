@@ -1,8 +1,14 @@
-<% layout('layouts/boilerplate') -%> <%-include('../partials/flash')%>
+<% layout('layouts/boilerplate') -%> 
 <link rel="stylesheet" href="/stylesheets/stars.css" />
 <% let char; if(school.reviews.length === 1){ char = " " } else { char = "s" } %>
 <section id="show-page">
+  <div class="forflash">
+    <%-include('../partials/flash')%>
+
+  </div>
   <div class="container">
+
+    
     <div class="left-side">
       <div class="image">
         <img src="<%=school.image%>" alt="" />
@@ -110,3 +116,5 @@
     </div>
   </div>
 </section>
+
+

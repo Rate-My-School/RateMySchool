@@ -1,8 +1,10 @@
-<% layout('layouts/boilerplate') %> <%-include('../partials/flash')%>
+<% layout('layouts/boilerplate') %> 
 
 
 <section id="login">
+<div class="forflash"> <%-include('../partials/flash')%></div>
   <div class="container">
+   
     <form action="/login" class="form" method="POST"  novalidate>
       <div class="logo">RateMy<span class="highlighter">School</span></div>
       <div class="heading">
@@ -16,7 +18,7 @@
         <label class="" for="password">Password</label>
         <input placeholder="Password" class="" type="password" id="password" name="password" required />
       </div>
-      <button class="btn">Login</button>
+      <button class="login-btn">Login</button>
     </form>
 
   </div>
