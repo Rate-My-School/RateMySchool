@@ -1,14 +1,7 @@
-const alertSuccess =  document.querySelector(".alert-success")
+const alertSuccess = document.querySelector(".alert-success");
 
-
-
-
-
-if (alertSuccess.classList.contains("active")){
-    setTimeout(() => {
-         alertSuccess.classList.remove("active")
-    }, 2000)
-
-
+if (alertSuccess.classList.contains("active")) {
+  setTimeout(() => {
+    alertSuccess.classList.remove("active");
+  }, 2000);
 }
-

@@ -1,14 +1,9 @@
-<% layout('layouts/boilerplate') -%> 
+<% layout('layouts/boilerplate') -%>
 <link rel="stylesheet" href="/stylesheets/stars.css" />
 <% let char; if(school.reviews.length === 1){ char = " " } else { char = "s" } %>
 <section id="show-page">
-  <div class="forflash">
-    <%-include('../partials/flash')%>
-
-  </div>
+  <div class="forflash"><%-include('../partials/flash')%></div>
   <div class="container">
-
-    
     <div class="left-side">
       <div class="image">
         <img src="<%=school.image%>" alt="" />
@@ -53,7 +48,12 @@
         <h3>Leave A Review</h3>
       </div>
       <div>
-        <form action="/schools/<%=school._id%>/reviews" method="POST">
+        <form
+          class="review-form"
+          onsubmit="return validateForm()"
+          action="/schools/<%=school._id%>/reviews"
+          method="POST"
+        >
           <div class="stars">
             <div class="list-choice">
               <div class="list-choice-title">Rate Your School</div>
@@ -79,6 +79,12 @@
                   <span>5</span>
                 </label>
               </div>
+            </div>
+            <div
+              id="ratingErrorMessage"
+              style="display: none; color: red; margin: auto; width: 50%"
+            >
+              Please rate your school.
             </div>
           </div>
 
@@ -117,4 +123,24 @@
   </div>
 </section>
 
+<script>
+  function validateForm() {
+    var ratingOptions = document.querySelectorAll('input[name="review[rating]"]');
+    var ratingSelected = false;
 
+    ratingOptions.forEach(function (option) {
+      if (option.checked) {
+        ratingSelected = true;
+      }
+    });
+    var ratingErrorMessage = document.getElementById("ratingErrorMessage");
+    if (!ratingSelected) {
+      ratingErrorMessage.style.display = "block";
+      return false;
+    } else {
+      ratingErrorMessage.style.display = "none";
+    }
+
+    return true;
+  }
+</script>
