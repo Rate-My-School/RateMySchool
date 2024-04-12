@@ -1,6 +1,7 @@
 <% layout('layouts/boilerplate') -%>
 <link rel="stylesheet" href="/stylesheets/stars.css" />
-<% let char; if(school.reviews.length === 1){ char = " " } else { char = "s" } %>
+<% let char; if(school.reviews.length === 1){ char = " " } else { char = "s" }
+%>
 <section id="show-page">
   <div class="forflash"><%-include('../partials/flash')%></div>
   <div class="container">
@@ -14,9 +15,16 @@
             <div class="title">
               <h2><%= school.title %></h2>
             </div>
+            <div>
+              <h5 class="CHANGECSS!!!!!!!!!">
+                By <%= school.author.username %>
+              </h5>
+            </div>
             <div class="location">
               <h3><%= school.location %></h3>
             </div>
+            <% if(currentUser &&
+            (school.author.equals(currentUser)||currentUser.isAdmin)) {%>
             <div class="btns">
               <div class="edit-btn">
                 <a href="/schools/<%= school._id %>/edit">Edit</a>
@@ -29,6 +37,7 @@
                 <button>Delete</button>
               </form>
             </div>
+            <% } %>
           </div>
           <div class="right">
             <div class="tution">
@@ -80,20 +89,15 @@
                 </label>
               </div>
             </div>
-            <div
-              id="ratingErrorMessage"
-              
-            >
-            <i class="fa-solid fa-caret-up"></i>
-            <div class="contain">
-              <div class="icon-box">
-                <i class="fa-solid fa-exclamation"></i>
+            <div id="ratingErrorMessage">
+              <i class="fa-solid fa-caret-up"></i>
+              <div class="contain">
+                <div class="icon-box">
+                  <i class="fa-solid fa-exclamation"></i>
+                </div>
+
+                <span>Please rate your school.</span>
               </div>
-              
-              <span>Please rate your school.</span>
-              
-            </div>
-              
             </div>
           </div>
 
@@ -113,9 +117,12 @@
           <%for(review of school.reviews){%> <%//if(review.body){%>
           <div class="star-rating-container">
             <p class="starability-result" data-rating="<%=review.rating%>"></p>
+            <h6 class="CHANGECSS!!!!!!!!!">By <%= review.author.username %></h6>
           </div>
 
           <p class="rating-body"><%=review.body%></p>
+          <% if(currentUser &&
+          (review.author.equals(currentUser)||currentUser.isAdmin)) {%>
           <form
             action="/schools/<%=school._id%>/reviews/<%=review._id%>?_method=DELETE"
             method="POST"
@@ -124,8 +131,7 @@
               <button class="rating-btn">Delete</button>
             </div>
           </form>
-
-          <%// }%> <% }%>
+          <% } %> <%// }%> <% }%>
         </div>
       </div>
     </div>
@@ -134,7 +140,9 @@
 
 <script>
   function validateForm() {
-    var ratingOptions = document.querySelectorAll('input[name="review[rating]"]');
+    var ratingOptions = document.querySelectorAll(
+      'input[name="review[rating]"]'
+    );
     var ratingSelected = false;
 
     ratingOptions.forEach(function (option) {
