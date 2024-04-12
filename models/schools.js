@@ -9,6 +9,10 @@ const SchoolSchema = new Schema({
   // descritption: String,
   rating: Number,
   location: String,
+  author: {
+    type: Schema.Types.ObjectId,
+    ref: "User",
+  },
   reviews: [
     {
       type: Schema.Types.ObjectId,

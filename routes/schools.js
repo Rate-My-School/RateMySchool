@@ -4,6 +4,7 @@ const ExpressError = require("../utils/ExpressError");
 const wrapAsync = require("../utils/wrapAsync");
 const School = require("../models/schools");
 const { schoolSchema } = require("../schemas.js");
+const { isLoggedIn, isAuthor } = require("../utils/middleware.js");
 
 const schoolValidator = (req, res, next) => {
   const { error } = schoolSchema.validate(req.body);
@@ -23,15 +24,17 @@ router.get(
   })
 );
 
-router.get("/new", (req, res) => {
+router.get("/new", isLoggedIn, (req, res) => {
   res.render("schools/new");
 });
 
 router.post(
   "/",
+  isLoggedIn,
   schoolValidator,
   wrapAsync(async (req, res) => {
     const school = new School(req.body.school);
+    school.author = req.user._id
     await school.save();
     req.flash("success", "Successfully added a new School!");
     res.redirect(`/schools/${school._id}`);
@@ -41,17 +44,21 @@ router.post(
 router.get(
   "/:id",
   wrapAsync(async (req, res) => {
-    const school = await School.findById(req.params.id).populate("reviews");
+    const school = await School.findById(req.params.id).populate({ path: "reviews", populate: { path: "author" } })
+      .populate("author");
     if (!school) {
       req.flash("error", "Cannot find school!");
       res.redirect("/schools");
     }
+    console.log(school)
     res.render("schools/show", { school });
   })
 );
 
 router.get(
   "/:id/edit",
+  isLoggedIn,
+  isAuthor,
   wrapAsync(async (req, res) => {
     const school = await School.findById(req.params.id);
     if (!school) {
@@ -64,6 +71,8 @@ router.get(
 
 router.put(
   "/:id",
+  isLoggedIn,
+  isAuthor,
   schoolValidator,
   wrapAsync(async (req, res) => {
     const { id } = req.params;
@@ -75,6 +84,8 @@ router.put(
 
 router.delete(
   "/:id",
+  isLoggedIn,
+  isAuthor,
   wrapAsync(async (req, res) => {
     const { id } = req.params;
     await School.findByIdAndDelete(id);

@@ -8,6 +8,11 @@ const userSchema = new Schema({
     required: true,
     unique: true,
   },
+  role: {
+    type: String,
+    enum: ['user', 'admin'], // Define possible roles
+    default: 'user' // Default role is user
+  }
 });
 userSchema.plugin(passportLocalMongoose);
 module.exports = mongoose.model("User", userSchema);
