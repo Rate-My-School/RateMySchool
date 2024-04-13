@@ -120,7 +120,7 @@
   margin-bottom: 1px;
 }
 #show-page .container .right-side .rating .ratings {
-  height: 160px;
+  height: 170px;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
   padding: 20px 10px;
   border-radius:0 0 5px 5px;
@@ -135,12 +135,61 @@ padding: 20px 0  0;
 
   }
 
+  #show-page .container .right-side .rating .ratings .star-rating-container  {
+    display: flex;
+    
+ 
+    
+   
+     }
+
+     #show-page .container .right-side .rating .ratings .star-rating-container .user-icon-bg {
+      height: 38px;
+      width: 38px;
+      border-radius: 50%;
+      box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #00adb5;
+
+     }
+     #show-page .container .right-side .rating .ratings .star-rating-container .user-icon-bg .fa-user  {
+     
+      font-size: 1.1rem;
+      color: #fff;
+   
+      
+     
+       }
+  
+
+     #show-page .container .right-side .rating .ratings .star-rating-container .starability-result {
+      margin-left: auto;
+      
+   
+      
+     
+       }
+
+
+  #show-page .container .right-side .rating .ratings .star-rating-container .username {
+ 
+     
+        font-weight: 600;
+        font-size: .8rem;
+        position: relative;
+         /* top: 20px; */
+         left: 10px; 
+      
+      }
+
 
 #show-page .container .right-side .rating .ratings .rating-body{
  
 /* 
   padding: 10px 0px; */
-  margin-top: 12px;
+  margin-top: 29px;
   margin-left: 5px;
 }
 
@@ -173,6 +222,7 @@ padding: 20px 0  0;
   height: 300px;
   align-items: center;
   justify-content: center;
+ 
 }
 
 #show-page .container .right .rating-container {

@@ -15,11 +15,7 @@
             <div class="title">
               <h2><%= school.title %></h2>
             </div>
-            <div>
-              <h5 class="CHANGECSS!!!!!!!!!">
-                By <%= school.author.username %>
-              </h5>
-            </div>
+          
             <div class="location">
               <h3><%= school.location %></h3>
             </div>
@@ -116,8 +112,13 @@
         <div class="ratings">
           <%for(review of school.reviews){%> <%//if(review.body){%>
           <div class="star-rating-container">
+            <div class="user-icon-bg">
+              <i class="fa-solid fa-user"></i>
+            </div>
+           
+            <span class="username"> <%= review.author.username %></span>
             <p class="starability-result" data-rating="<%=review.rating%>"></p>
-            <h6 class="CHANGECSS!!!!!!!!!">By <%= review.author.username %></h6>
+            
           </div>
 
           <p class="rating-body"><%=review.body%></p>
