@@ -44,13 +44,14 @@ router.post(
 router.get(
   "/:id",
   wrapAsync(async (req, res) => {
+    let rate = 0
     const school = await School.findById(req.params.id).populate({ path: "reviews", populate: { path: "author" } })
       .populate("author");
     if (!school) {
       req.flash("error", "Cannot find school!");
       res.redirect("/schools");
     }
-    console.log(school)
+
     res.render("schools/show", { school });
   })
 );
