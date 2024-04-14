@@ -1,4 +1,4 @@
-<% layout('layouts/boilerplate') -%> 
+<% layout('layouts/boilerplate') -%>
 <div id="hero">
   <%-include('../partials/flash')%>
   <div class="heading">
@@ -25,7 +25,10 @@
           <span><%= school.title %> </span>
         </div>
         <div class="info-sub">
-          <div>300 reviews</div>
+          <div>
+            <%=school.reviews.length %> review<%=school.reviews.length!=1 ? 's'
+            : ''%>
+          </div>
           <div class="location"><%= school.location %></div>
         </div>
       </div>
