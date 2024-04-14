@@ -38,7 +38,8 @@ const seedDB = async () => {
         title: `${sample(descriptors)} ${sample(places)}`,
         image: "/img/uni2.jpg",
         tuition: 20000,
-        author: admin._id
+        author: admin._id,
+        rating: 0
       });
       await school.save();
     }
