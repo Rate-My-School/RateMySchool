@@ -12,11 +12,6 @@ db.once("open", () => {
   console.log("Database CONNECTED!");
 });
 
-const adminEmail = 'admin@admin.com';
-const adminUser = 'admin';
-const adminPassword = 'admin';
-
-
 const sample = (array) => array[Math.floor(Math.random() * array.length)];
 const seedDB = async () => {
   try {
@@ -33,7 +28,6 @@ const seedDB = async () => {
     console.log('Admin user created successfully');
 
     for (let i = 0; i < schoolData.length; i++) {
-      const ran1000 = Math.floor(Math.random() * 1000);
       const school = new School(schoolData[i]);
       await school.save();
     }

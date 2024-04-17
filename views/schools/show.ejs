@@ -19,8 +19,8 @@
             <div class="location">
               <h3><%= school.location %></h3>
             </div>
-            <% if(currentUser &&
-            (school.author.equals(currentUser)||currentUser.isAdmin)) {%>
+            <% if(currentUser
+            &&(school.author.equals(currentUser)||currentUser.isAdmin)) {%>
             <div class="btns">
               <div class="edit-btn">
                 <a href="/schools/<%= school._id %>/edit">Edit</a>
@@ -37,7 +37,7 @@
           </div>
           <div class="right">
             <div class="tution">
-              <h3><%= school.tuition %>/yr</h3>
+              <h3>$<%= school.tuition %>/yr</h3>
             </div>
             <div class="rating-container">
               <h3><%=school.rating%>/5</h3>
