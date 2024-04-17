@@ -24,10 +24,8 @@ const sample = (array) => array[Math.floor(Math.random()* array.length)]
 const seedDB = async () => {
     await School.deleteMany({})
     for (let i = 0; i < schoolJson.length; i++){
-        const ran1000 = Math.floor(Math.random() * 1000)
        const school = new School (
         schoolJson[i]
-
        )
         school.save()
     }
