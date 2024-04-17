@@ -109,18 +109,25 @@
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     background: #fff;
     border-radius: 10px 10px 10px 10px; 
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #boxes .container .box .image img {
    width: 310px;
    border-radius: 10px 10px 0px 0px; 
+   height: 220px;
 }
 
 
 #boxes .container .box .info{
     color: #222831;
     padding: 15px 15px 30px 13px;
-    
+    margin-top: auto;
+   
+  
+   
   
  }
 
@@ -136,7 +143,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: .9rem;
+    font-size: .8rem;
+   
+  }
+
+  #boxes .container .box .info .info-sub .location{
+   font-size: .75rem;
    
   }
   #pagination-sect {
