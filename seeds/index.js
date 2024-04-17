@@ -28,7 +28,10 @@ const seedDB = async () => {
     console.log('Admin user created successfully');
 
     for (let i = 0; i < schoolData.length; i++) {
-      const school = new School(schoolData[i]);
+      const school = new School({
+        ...schoolData[i], author: admin._id
+      });
+
       await school.save();
     }
   }
