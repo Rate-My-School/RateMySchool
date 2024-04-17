@@ -3,6 +3,7 @@ from google_images_search import GoogleImagesSearch
 import json
 import pandas as pd
 import os
+import time
 secrets = open('image/secrets.json')
 secrets = json.load(secrets)
 
@@ -34,6 +35,7 @@ try:
             removeNames.loc[len(removeNames.index)+1] = [name['title']]
             imgToNameDF.loc[len(imgToNameDF.index)+1] = [name['title'],i.url]
             print(i.url)
+        time.sleep(3)
 
 except KeyboardInterrupt: 
     print(f'Keyboard Interrupt')
