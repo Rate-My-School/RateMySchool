@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
 const School = require("../models/schools");
 const User = require('../models/users');
-const { places, descriptors } = require("./seedHelpers");
-const cities = require("./cities");
+// const { places, descriptors } = require("./seedHelpers");
+// const cities = require("./cities");
 mongoose.connect("mongodb://127.0.0.1:27017/ratemyschool");
+const schoolData = require('../data/schoolSchema.json')
 
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "Hello connection error:"));
@@ -31,16 +32,9 @@ const seedDB = async () => {
     await admin.save();
     console.log('Admin user created successfully');
 
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < schoolData.length; i++) {
       const ran1000 = Math.floor(Math.random() * 1000);
-      const school = new School({
-        location: `${cities[ran1000].city} , ${cities[ran1000].state}`,
-        title: `${sample(descriptors)} ${sample(places)}`,
-        image: "/img/uni2.jpg",
-        tuition: 20000,
-        author: admin._id,
-        rating: 0
-      });
+      const school = new School(schoolData[i]);
       await school.save();
     }
   }
