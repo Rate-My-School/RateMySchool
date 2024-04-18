@@ -1,5 +1,4 @@
-<% layout('layouts/boilerplate') -%>
-
+<% layout('layouts/boilerplate') -%> <%-include('../partials/flash')%>
 <section id="post-section">
   <div class="container">
     <div class="left">
@@ -29,17 +28,11 @@
           </div>
           <div class="rating">
             <label for="rating">Rating</label>
-            <input
-              type="number"
-              id="rating-input"
-              name="school[rating]"
-              min="1"
-              max="5"
-            />
+            <input type="number" id="rating-input" name="school[rating]" min="1" max="5" />
           </div>
         </div>
         <div class="post-btn">
-          <button>Post School</button>
+          <button type="submit">Post School</button>
         </div>
       </form>
     </div>

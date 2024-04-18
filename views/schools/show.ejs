@@ -3,10 +3,11 @@
 <% let char; if(school.reviews.length === 1){ char = " " } else { char = "s" }
 %>
 <section id="show-page">
+  <div class="forflash"><%-include('../partials/flash')%></div>
   <div class="container">
     <div class="left-side">
       <div class="image">
-        <img src="/img/uni.jpg" alt="" />
+        <img src="<%=school.image%>" alt="" />
       </div>
       <div class="info">
         <div class="info-container">
@@ -14,9 +15,12 @@
             <div class="title">
               <h2><%= school.title %></h2>
             </div>
+
             <div class="location">
               <h3><%= school.location %></h3>
             </div>
+            <% if(currentUser
+            &&(school.author.equals(currentUser)||currentUser.isAdmin)) {%>
             <div class="btns">
               <div class="edit-btn">
                 <a href="/schools/<%= school._id %>/edit">Edit</a>
@@ -29,10 +33,11 @@
                 <button>Delete</button>
               </form>
             </div>
+            <% } %>
           </div>
           <div class="right">
             <div class="tution">
-              <h3><%= school.tuition %>/yr</h3>
+              <h3>$<%= school.tuition %>/yr</h3>
             </div>
             <div class="rating-container">
               <h3><%=school.rating%>/5</h3>
@@ -48,13 +53,18 @@
         <h3>Leave A Review</h3>
       </div>
       <div>
-        <form action="/schools/<%=school._id%>/reviews" method="POST">
+        <form
+          class="review-form"
+          onsubmit="return validateForm()"
+          action="/schools/<%=school._id%>/reviews"
+          method="POST"
+        >
           <div class="stars">
             <div class="list-choice">
               <div class="list-choice-title">Rate Your School</div>
               <div class="list-choice-objects">
                 <label>
-                  <input  value="1" type="radio" name="review[rating]" />
+                  <input value="1" type="radio" name="review[rating]" />
                   <span>1</span>
                 </label>
                 <label>
@@ -75,6 +85,16 @@
                 </label>
               </div>
             </div>
+            <div id="ratingErrorMessage">
+              <i class="fa-solid fa-caret-up"></i>
+              <div class="contain">
+                <div class="icon-box">
+                  <i class="fa-solid fa-exclamation"></i>
+                </div>
+
+                <span>Please rate your school.</span>
+              </div>
+            </div>
           </div>
 
           <div class="text-box">
@@ -92,10 +112,17 @@
         <div class="ratings">
           <%for(review of school.reviews){%> <%//if(review.body){%>
           <div class="star-rating-container">
+            <div class="user-icon-bg">
+              <i class="fa-solid fa-user"></i>
+            </div>
+
+            <span class="username"> <%= review.author.username %></span>
             <p class="starability-result" data-rating="<%=review.rating%>"></p>
           </div>
 
           <p class="rating-body"><%=review.body%></p>
+          <% if(currentUser &&
+          (review.author.equals(currentUser)||currentUser.isAdmin)) {%>
           <form
             action="/schools/<%=school._id%>/reviews/<%=review._id%>?_method=DELETE"
             method="POST"
@@ -104,10 +131,33 @@
               <button class="rating-btn">Delete</button>
             </div>
           </form>
-
-          <%// }%> <% }%>
+          <% } %> <%// }%> <% }%>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  function validateForm() {
+    var ratingOptions = document.querySelectorAll(
+      'input[name="review[rating]"]'
+    );
+    var ratingSelected = false;
+
+    ratingOptions.forEach(function (option) {
+      if (option.checked) {
+        ratingSelected = true;
+      }
+    });
+    var ratingErrorMessage = document.getElementById("ratingErrorMessage");
+    if (!ratingSelected) {
+      ratingErrorMessage.style.display = "block";
+      return false;
+    } else {
+      ratingErrorMessage.style.display = "none";
+    }
+
+    return true;
+  }
+</script>

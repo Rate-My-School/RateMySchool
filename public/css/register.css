@@ -1,0 +1,140 @@
+#register {
+   background: #222831;
+}
+
+
+#register .forflash {
+   background: #222831;
+   position: relative;
+   top:-85px;
+
+}
+
+
+
+#register .container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    background: #222831;
+}
+
+#register .container .form {
+    width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    height: 410px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+#register .container .form .logo {
+   font-weight: 800;
+   font-size: 1.8rem;
+   padding: 10px 0;
+}
+
+#register .container .form .heading {
+
+    font-weight: 100;
+    margin: 5px 0 20px;
+ }
+
+ #register .container .form .heading h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0 0 20px;
+ }
+ #register .container .form .username {
+   
+    width: 300px;
+    margin: 0 auto;
+ }
+
+ #register .container .form .username label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: 600;
+
+ }
+
+ #register .container .form .username input{
+   font-size: 1.2rem;
+   outline: none;
+   width: 300px;
+   border: 1px solid #222831;
+   border-radius: 5px;
+   padding: 5px 5px;
+
+ }
+
+ #register .container .form .email{
+   
+    width: 300px;
+    margin: 0 auto;
+ }
+
+
+ #register .container .form .email label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: 600;
+
+ }
+
+ #register .container .form .email input{
+   font-size: 1.2rem;
+   outline: none;
+   width: 300px;
+   border: 1px solid #222831;
+   border-radius: 5px;
+   padding: 5px 5px;
+
+ }
+
+
+ #register .container .form .password{
+   
+    width: 300px;
+    margin: 0 auto;
+ }
+
+
+ #register .container .form .password label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: 600;
+
+ }
+
+ #register .container .form .password input{
+   font-size: 1.2rem;
+   outline: none;
+   width: 300px;
+   border: 1px solid #222831;
+   border-radius: 5px;
+   padding: 5px 5px;
+
+ }
+
+
+ #register .container .form .btn {
+    background: #eeeeee;
+    color: #222831;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 300px;
+    position: relative;
+    top: 25px;
+ }

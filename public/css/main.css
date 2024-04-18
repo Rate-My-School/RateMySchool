@@ -1,38 +1,32 @@
-
-
-@import url('nav.css');
-@import url('homepage.css');
-@import url('footer.css');
-@import url('allschools.css');
-@import url('postschool.css');
-@import url('edit.css');
-@import url('showpage.css');
-
+@import url("nav.css");
+@import url("homepage.css");
+@import url("footer.css");
+@import url("allschools.css");
+@import url("postschool.css");
+@import url("edit.css");
+@import url("showpage.css");
+@import url("register.css");
+@import url("login.css");
+@import url("flash.css");
 
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: "Roboto" ;
-    
-  
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 a {
-    text-decoration: none;
-    
-    
+  text-decoration: none;
 }
 
 body {
-    
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .highlighter {
-    color: #00ADB5;
+  color: #00adb5;
 }
 

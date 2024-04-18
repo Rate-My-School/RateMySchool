@@ -1,6 +1,4 @@
-<% layout('layouts/boilerplate') -%> 
-    
-
+<% layout('layouts/boilerplate') -%> <%-include('../partials/flash')%>
 <!-- 
     <form action="/schools/<%=school._id%>?_method=PUT" method="POST">
         <div>
@@ -14,64 +12,75 @@
         <button>Update School</button>
     </form> -->
 
-
-    <section id="edit-section">
-        <div class="container">
-          <div class="left">
-            <div class="heading">
-              <h3>Edit School</h3>
-            </div>
-            <form class="form" action="/schools/<%=school._id%>?_method=PUT" method="POST">
-              <div class="first-row">
-                <div class="name">
-                  <label for="schoolname">School Name</label>
-                  <input type="text" id="schoolname-input" name="schoolname" value="<%=school.title %>"  />
-                </div>
-                <div class="location">
-                  <label for="location">Location</label>
-                  <input type="text" id="location-input" name="location"  value="<%=school.location %>"/>
-      
-                </div>
-              </div>
-              <div class="imageurl">
-                  <label for="imgurl" >Image Url</label>
-                  <input type="text" id="imgurl">
-              </div>
-              <div class="third-row">
-                  <div class="tuition">
-                      <label for="tution">Tuition</label>
-                      <span class="dollar-symbol">$</span>
-                      <input type="text" id="tution-input" name="tuition" />
-                  </div>
-                  <div class="rating">
-                      <label for="rating">Rating</label>
-                      <input type="number" id="rating-input" name="rate" min="1" max="5" />
-          
-                  </div>
-      
-              </div>
-              <div class="post-btn">
-                  <button>Update School</button>
-              </div>
-             
-            </form>
-            <div class="go-back">
-                <a href="/schools/<%= school._id %>">Back to School</a>
-            </div>
+<section id="edit-section">
+  <div class="container">
+    <div class="left">
+      <div class="heading">
+        <h3>Edit School</h3>
+      </div>
+      <form class="form" action="/schools/<%=school._id%>?_method=PUT" method="POST">
+        <div class="first-row">
+          <div class="name">
+            <label for="schoolname">School Name</label>
+            <input
+              type="text"
+              id="schoolname-input"
+              name="school[title]"
+              value="<%=school.title %>"
+            />
           </div>
-          <div class="right">
-              <div class="bg-pic">
-                  <div class="title">
-                     
-                      <h3>RateMy<span class="highlighter">School</span></h3>
-                  </div>
-                  <div class="overlay"></div>
-              </div>
+          <div class="location">
+            <label for="location">Location</label>
+            <input
+              type="text"
+              id="location-input"
+              name="school[location]"
+              value="<%=school.location %>"
+            />
           </div>
         </div>
-      </section>
-      
-      
-      
-
-    
+        <div class="imageurl">
+          <label for="imgurl">Image Url</label>
+          <input type="text" id="imgurl" name="school[image]" value="<%=school.image %>" />
+        </div>
+        <div class="third-row">
+          <div class="tuition">
+            <label for="tution">Tuition</label>
+            <span class="dollar-symbol">$</span>
+            <input
+              type="text"
+              id="tution-input"
+              name="school[tuition]"
+              value="<%=school.tuition %>"
+            />
+          </div>
+          <div class="rating">
+            <label for="rating">Rating</label>
+            <input
+              type="number"
+              id="rating-input"
+              name="school[rating]"
+              min="1"
+              max="5"
+              value="<%=school.rating %>"
+            />
+          </div>
+        </div>
+        <div class="post-btn">
+          <button>Update School</button>
+        </div>
+      </form>
+      <div class="go-back">
+        <a href="/schools/<%= school._id %>">Back to School</a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="bg-pic">
+        <div class="title">
+          <h3>RateMy<span class="highlighter">School</span></h3>
+        </div>
+        <div class="overlay"></div>
+      </div>
+    </div>
+  </div>
+</section>
