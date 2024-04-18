@@ -35,7 +35,6 @@ try:
             removeNames.loc[len(removeNames.index)+1] = [name['title']]
             imgToNameDF.loc[len(imgToNameDF.index)+1] = [name['title'],i.url]
             print(i.url)
-        time.sleep(3)
 
 except KeyboardInterrupt: 
     print(f'Keyboard Interrupt')
