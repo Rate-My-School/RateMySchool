@@ -1,75 +1,76 @@
-Massachusetts Institute of Technology (MIT)
+title
+Massachusetts Institute of Technology
 Stanford University
 Harvard University
-California Institute of Technology (Caltech)
+California Institute of Technology
 University of Chicago
 Princeton University
 Columbia University
 Yale University
 University of Pennsylvania
-University of Michigan - Ann Arbor
+University of Michigan
 Johns Hopkins University
 Northwestern University
-University of California, Berkeley (UC Berkeley)
-University of California, Los Angeles (UCLA)
-University of Wisconsin-Madison
-University of Illinois at Urbana-Champaign
+University of California Berkeley
+University of California Los Angeles
+University of Wisconsin
+University of Illinois
 University of Washington
 University of Texas at Austin
 Duke University
 Cornell University
-New York University (NYU)
-University of California, San Diego (UCSD)
-University of North Carolina at Chapel Hill
+New York University
+University of California San Diego
+University of North Carolina
 Carnegie Mellon University
-University of Southern California (USC)
-University of Minnesota - Twin Cities
-University of Maryland, College Park
+University of Southern California
+University of Minnesota
+University of Maryland
 Brown University
 Washington University in St. Louis
-Ohio State University - Columbus
-Pennsylvania State University - University Park
+Ohio State University
+Pennsylvania State University
 University of Virginia
 University of Pittsburgh
 University of Florida
 University of Colorado Boulder
 Boston University
-University of California, Davis (UC Davis)
+University of California Davis
 Michigan State University
-Purdue University - West Lafayette
+Purdue University
 Rice University
 Emory University
 Georgia Institute of Technology
 University of Rochester
 University of Iowa
 University of Arizona
-University of California, Santa Barbara (UCSB)
+University of California Santa Barbara
 University of Notre Dame
 University of Miami
 University of Utah
-Texas A&M University - College Station
+Texas A&M University
 Vanderbilt University
 University of Massachusetts Amherst
 Arizona State University
-University of California, Irvine (UC Irvine)
+University of California Irvine
 Indiana University Bloomington
-University of California, Santa Cruz (UCSC)
+University of California Santa Cruz
 University of Delaware
 University of Connecticut
 Case Western Reserve University
 Iowa State University
 Stony Brook University
 University of Illinois Chicago
-Rutgers, The State University of New Jersey - New Brunswick
+Rutgers The State University of New Jersey
 University of Houston
 Tufts University
 University of Georgia
-University of Missouri - Columbia
-University of Nebraska - Lincoln
+University of Missouri
+University of Nebraska
 University at Buffalo SUNY
-University of Alabama - Tuscaloosa
-North Carolina State University - Raleigh
-University of California, Riverside (UC Riverside)
+University of Alabama
+North Carolina State University
+University of California Riverside
 University of Kentucky
 Colorado State University
 University of South Florida
@@ -84,9 +85,9 @@ Syracuse University
 University of Kansas
 University of Vermont
 University of Massachusetts Boston
-University of Tennessee - Knoxville
+University of Tennessee
 University of Arkansas
-University of Nevada, Las Vegas (UNLV)
+University of Nevada Las Vegas
 University of Cincinnati
 Kansas State University
 University of South Carolina
