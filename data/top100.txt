@@ -1,0 +1,100 @@
+Massachusetts Institute of Technology (MIT)
+Stanford University
+Harvard University
+California Institute of Technology (Caltech)
+University of Chicago
+Princeton University
+Columbia University
+Yale University
+University of Pennsylvania
+University of Michigan - Ann Arbor
+Johns Hopkins University
+Northwestern University
+University of California, Berkeley (UC Berkeley)
+University of California, Los Angeles (UCLA)
+University of Wisconsin-Madison
+University of Illinois at Urbana-Champaign
+University of Washington
+University of Texas at Austin
+Duke University
+Cornell University
+New York University (NYU)
+University of California, San Diego (UCSD)
+University of North Carolina at Chapel Hill
+Carnegie Mellon University
+University of Southern California (USC)
+University of Minnesota - Twin Cities
+University of Maryland, College Park
+Brown University
+Washington University in St. Louis
+Ohio State University - Columbus
+Pennsylvania State University - University Park
+University of Virginia
+University of Pittsburgh
+University of Florida
+University of Colorado Boulder
+Boston University
+University of California, Davis (UC Davis)
+Michigan State University
+Purdue University - West Lafayette
+Rice University
+Emory University
+Georgia Institute of Technology
+University of Rochester
+University of Iowa
+University of Arizona
+University of California, Santa Barbara (UCSB)
+University of Notre Dame
+University of Miami
+University of Utah
+Texas A&M University - College Station
+Vanderbilt University
+University of Massachusetts Amherst
+Arizona State University
+University of California, Irvine (UC Irvine)
+Indiana University Bloomington
+University of California, Santa Cruz (UCSC)
+University of Delaware
+University of Connecticut
+Case Western Reserve University
+Iowa State University
+Stony Brook University
+University of Illinois Chicago
+Rutgers, The State University of New Jersey - New Brunswick
+University of Houston
+Tufts University
+University of Georgia
+University of Missouri - Columbia
+University of Nebraska - Lincoln
+University at Buffalo SUNY
+University of Alabama - Tuscaloosa
+North Carolina State University - Raleigh
+University of California, Riverside (UC Riverside)
+University of Kentucky
+Colorado State University
+University of South Florida
+Wake Forest University
+Virginia Tech
+University of Oregon
+University of New Mexico
+University of Oklahoma
+Florida State University
+Dartmouth College
+Syracuse University
+University of Kansas
+University of Vermont
+University of Massachusetts Boston
+University of Tennessee - Knoxville
+University of Arkansas
+University of Nevada, Las Vegas (UNLV)
+University of Cincinnati
+Kansas State University
+University of South Carolina
+University of Alabama at Birmingham
+University of Hawaii at Manoa
+George Washington University
+University of Louisville
+Baylor University
+Oregon State University
+Temple University
+University of Mississippi

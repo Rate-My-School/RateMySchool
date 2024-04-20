@@ -9,7 +9,7 @@ secrets = json.load(secrets)
 
 client = GoogleImagesSearch(secrets['API_KEY'],secrets['CSE_ID'])
 
-currentNames = pd.read_csv('./data/NYschools.txt')
+currentNames = pd.read_csv('./data/top100.txt')
 removeNames = pd.read_csv('image/seen_lines.txt')
 currentNames = pd.concat([currentNames,removeNames],ignore_index=True).drop_duplicates(keep=False).reset_index(drop=True)
 #These three lines open both the seen and names to run text files. Then drop both if they are
