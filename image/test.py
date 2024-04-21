@@ -44,4 +44,8 @@ except Exception as error:
     imgToNameDF.to_csv(path_or_buf='image/names-postfix.csv', mode='a', index=False, header=False)
 
 
+print(f'Finished')
+removeNames.to_csv(path_or_buf='image/seen_lines.txt', mode='a', index=False, header=False)
+imgToNameDF.to_csv(path_or_buf='image/names-postfix.csv', mode='a', index=False, header=False)
+
 
