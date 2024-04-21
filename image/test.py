@@ -37,11 +37,11 @@ try:
 except KeyboardInterrupt: 
     print(f'Keyboard Interrupt')
     removeNames.to_csv(path_or_buf='image/seen_lines.txt', mode='a', index=False, header=False)
-    imgToNameDF.to_csv(path_or_buf='image/names.csv', mode='a', index=False, header=False)
+    imgToNameDF.to_csv(path_or_buf='image/names-postfix.csv', mode='a', index=False, header=False)
 except Exception as error: 
     print(f'Error: {error}')
     removeNames.to_csv(path_or_buf='image/seen_lines.txt', mode='a', index=False, header=False)
-    imgToNameDF.to_csv(path_or_buf='image/names.csv', mode='a', index=False, header=False)
+    imgToNameDF.to_csv(path_or_buf='image/names-postfix.csv', mode='a', index=False, header=False)
 
 
 
