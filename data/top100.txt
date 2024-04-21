@@ -1,36 +1,4 @@
 title
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
-New York UniversityNew York University
 Massachusetts Institute of Technology
 Stanford University
 Harvard University
@@ -118,3 +86,16 @@ University of Kansas
 University of Vermont
 University of Massachusetts Boston
 University of Tennessee
+University of Arkansas
+University of Nevada Las Vegas
+University of Cincinnati
+Kansas State University
+University of South Carolina
+University of Alabama at Birmingham
+University of Hawaii at Manoa
+George Washington University
+University of Louisville
+Baylor University
+Oregon State University
+Temple University
+University of Mississippi

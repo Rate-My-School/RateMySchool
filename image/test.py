@@ -9,19 +9,17 @@ secrets = json.load(secrets)
 
 client = GoogleImagesSearch(secrets['API_KEY'],secrets['CSE_ID'])
 
-currentNames = pd.read_csv('./data/NYschools.txt')
+currentNames = pd.read_csv('./data/top100.txt',encoding='UTF-8')
 removeNames = pd.read_csv('image/seen_lines.txt')
 currentNames = pd.concat([currentNames,removeNames],ignore_index=True).drop_duplicates(keep=False).reset_index(drop=True)
 #These three lines open both the seen and names to run text files. Then drop both if they are
 # ran already
-
-
 _search_params = {
     'q': '',
     'num': 1,
     'fileType': 'jpg|jpeg|png'
 }
-
+print(currentNames)
 imgToNameDF = pd.DataFrame(columns=['title','image'])
 count = 0
 try:
@@ -39,11 +37,11 @@ try:
 except KeyboardInterrupt: 
     print(f'Keyboard Interrupt')
     removeNames.to_csv(path_or_buf='image/seen_lines.txt', mode='a', index=False, header=False)
-    imgToNameDF.to_csv(path_or_buf='image/names.csv', mode='a', index=False, header=False)
-except: 
-    print(f'Rate Limited')
+    imgToNameDF.to_csv(path_or_buf='image/names-postfix.csv', mode='a', index=False, header=False)
+except Exception as error: 
+    print(f'Error: {error}')
     removeNames.to_csv(path_or_buf='image/seen_lines.txt', mode='a', index=False, header=False)
-    imgToNameDF.to_csv(path_or_buf='image/names.csv', mode='a', index=False, header=False)
+    imgToNameDF.to_csv(path_or_buf='image/names-postfix.csv', mode='a', index=False, header=False)
 
 
 
