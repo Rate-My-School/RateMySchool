@@ -14,31 +14,28 @@
 </div>
 
 <div id="boxes">
-  <div class="container" id="cardContainer">
-    <% for (let school of schools ) { %>
+  <div class="container" id="cardContainer" data-server-variable="<%= schools %>">
+    <!-- <%//for (let school of schools ) { %>
     <div class="card">
-      <a href="schools/<%=school.id%>" class="box">
+      <a href="schools/<%=//school.id%>" class="box">
         <div class="image">
-          <img src="<%=school.image%>" alt="" />
+          <img src="<%=//school.image%>" alt="" />
         </div>
         <div class="info">
           <div class="title">
-            <span class="schoolTitle"><%= school.title %> </span>
+            <span class="schoolTitle"><%= //school.title %> </span>
           </div>
           <div class="info-sub">
-            <div>
-              <%=school.reviews.length %> review<%=school.reviews.length!=1 ?
-              's' : ''%>
-            </div>
-            <div class="location"><%= school.location %></div>
+            <div><%=//school.reviews.length %> review<%=//school.reviews.length!=1 ? 's' : ''%></div>
+            <div class="location"><%= //school.location %></div>
           </div>
         </div>
       </a>
     </div>
-    <% } %>
+    <%//} %> -->
   </div>
 </div>
-
+<!-- 
 <div id="pagination-sect">
   <div class="left-arrow">
     <i class="fa-solid fa-arrow-left"></i>
@@ -70,10 +67,16 @@
   <div class="right-arrow">
     <i class="fa-solid fa-arrow-right"></i>
   </div>
-</div>
+</div> -->
 <script>
+  let searchBool = false;
   function searchProduct() {
     const input = document.getElementById("search").value.toUpperCase();
+    if (input) {
+      searchBool = true;
+    } else {
+      searchBool = false;
+    }
     const cardContainer = document.getElementById("cardContainer");
     const cards = cardContainer.getElementsByClassName("card");
     for (let i = 0; i < cards.length; i++) {
@@ -85,4 +88,56 @@
       }
     }
   }
+</script>
+
+<script>
+  const cardContainer = document.getElementById("cardContainer");
+  const schools = JSON.parse(cardContainer.getAttribute("data-server-variable"));
+  console.log(schools);
+  let posts = [];
+  let size = 16;
+  const cardLoad = size;
+  window.onload = function () {
+    loadData();
+  };
+  loadData = () => {
+    console.log("inLOAD");
+    for (let i = size - cardLoad; i < size; i++) {
+      posts.push(schools[i]);
+    }
+    console.log("CURRENT LOADED POSTS", posts);
+    if (posts.length > 0) {
+      for (let j = size - cardLoad; j < size; j++) {
+        let cardItem = ` <div class="card">
+                            <a href="/schools/${posts[j]._id}" class="box">
+                              <div class="image">
+                                <img src="${posts[j].image}" alt="" />
+                              </div>
+                              <div class="info">
+                                <div class="title">
+                                  <span class="schoolTitle">${posts[j].title} </span>
+                                </div>
+                                <div class="info-sub">
+                                  <div>${posts[j].reviews.length} review${
+          posts[j].reviews.length != 1 ? "s" : ""
+        }</div>
+                                  <div class="location">${posts[j].location}</div>
+                                </div>
+                              </div>
+                            </a>
+                          </div>`;
+        cardContainer.insertAdjacentHTML("beforeEnd", cardItem);
+      }
+    }
+    window.onscroll = function () {
+      const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+      if (scrollTop + clientHeight + 0.80005 >= scrollHeight && !searchBool) {
+        setTimeout(() => {
+          size += cardLoad;
+          console.log(size);
+          loadData();
+        }, 500);
+      }
+    };
+  };
 </script>

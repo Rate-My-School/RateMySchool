@@ -25,8 +25,12 @@
           <div class="logo">RateMy<span class="highlighter">School</span></div>
           <div class="group">
             <a href="/schools">Schools</a>
-            <a href="">Login</a>
-            <a href="">Register</a>
+            <% if(!currentUser){ %>
+            <a href="/login">Login</a>
+            <a href="/register">Sign Up</a>
+            <% }else{ %>
+            <a href="/logout">Sign Out</a>
+            <% } %>
           </div>
         </div>
       </nav>
@@ -34,8 +38,7 @@
         <div class="container">
           <div class="title">RateMy<span class="highlighter">School</span></div>
           <div class="info">
-            Welcome to RateMySchool ! Endeavor to explore a variety of School
-            listings.
+            Welcome to RateMySchool ! Endeavor to explore a variety of School listings.
           </div>
           <a href="/schools" class="btn"> View Schools </a>
         </div>
