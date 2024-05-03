@@ -1,16 +1,19 @@
 <% layout('layouts/boilerplate') -%>
 <div id="hero">
   <%-include('../partials/flash')%>
-  <div class="heading">
-    <span>All Schools</span>
-  </div>
-  <div class="search-area">
-    <div class="search">
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <input type="text" id="search" class="input" onkeyup="searchProduct()" />
+
+  <div class="overlay">
+    <div class="heading">
+      <span>All Schools</span>
+    </div>
+    <div class="search-area">
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="search" class="input" placeholder="Search" onkeyup="" />
+      </div>
+      <div class="result-box"></div>
     </div>
   </div>
-  <div class="overlay"></div>
 </div>
 
 <div id="boxes">
@@ -69,6 +72,36 @@
   </div>
 </div> -->
 <script>
+  const schools = JSON.parse(cardContainer.getAttribute("data-server-variable"));
+  const schoolTitles = schools.map((school) => school.title);
+  console.log(schoolTitles);
+  const resultBox = document.querySelector(".result-box");
+  const inputBox = document.getElementById("search");
+  inputBox.onkeyup = function () {
+    let result = [];
+    let input = inputBox.value;
+    if (input.length) {
+      result = schoolTitles.filter((keyword) => {
+        return keyword.toLowerCase().includes(input.toLowerCase());
+      });
+    }
+    display(result);
+  };
+  function display(result) {
+    const content = result.map((list) => {
+      let displaySchool = schools.find((school) => school.title === list);
+      const schoolLink = `/schools/${displaySchool._id}`;
+      return `<a href='${schoolLink}'> <li >` + list + "</li></a>";
+    });
+
+    resultBox.innerHTML = "<ul>" + content.join("") + "</ul>";
+  }
+  function findID(list) {}
+  function selectInput(list) {
+    inputBox.value = list.innerHTML;
+  }
+</script>
+<script>
   let searchBool = false;
   function searchProduct() {
     const input = document.getElementById("search").value.toUpperCase();
@@ -92,8 +125,7 @@
 
 <script>
   const cardContainer = document.getElementById("cardContainer");
-  const schools = JSON.parse(cardContainer.getAttribute("data-server-variable"));
-  console.log(schools);
+
   let posts = [];
   let size = 16;
   const cardLoad = size;
