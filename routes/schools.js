@@ -20,7 +20,7 @@ router.get(
   "/",
   wrapAsync(async (req, res) => {
     const schools = await School.find({});
-    res.render("schools/index", { schools });
+    res.render("schools/index", { schools: JSON.stringify(schools) });
   })
 );
 
@@ -34,7 +34,7 @@ router.post(
   schoolValidator,
   wrapAsync(async (req, res) => {
     const school = new School(req.body.school);
-    school.author = req.user._id
+    school.author = req.user._id;
     await school.save();
     req.flash("success", "Successfully added a new School!");
     res.redirect(`/schools/${school._id}`);
@@ -44,8 +44,9 @@ router.post(
 router.get(
   "/:id",
   wrapAsync(async (req, res) => {
-    let rate = 0
-    const school = await School.findById(req.params.id).populate({ path: "reviews", populate: { path: "author" } })
+    let rate = 0;
+    const school = await School.findById(req.params.id)
+      .populate({ path: "reviews", populate: { path: "author" } })
       .populate("author");
     if (!school) {
       req.flash("error", "Cannot find school!");

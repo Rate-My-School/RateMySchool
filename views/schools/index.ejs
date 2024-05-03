@@ -1,79 +1,64 @@
 <% layout('layouts/boilerplate') -%>
 <div id="hero">
   <%-include('../partials/flash')%>
-  <div class="heading">
-    <span>All Schools</span>
-  </div>
-  <div class="search-area">
-    <div class="search">
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <input type="text" id="search" class="input" onkeyup="searchProduct()" />
+
+  <div class="overlay">
+    <div class="heading">
+      <span>All Schools</span>
+    </div>
+    <div class="search-area">
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input
+          type="text"
+          id="search"
+          class="input"
+          placeholder="Search"
+          onkeyup=""
+        />
+      </div>
+      <div class="result-box"></div>
     </div>
   </div>
-  <div class="overlay"></div>
 </div>
 
 <div id="boxes">
-  <div class="container" id="cardContainer">
-    <% for (let school of schools ) { %>
+  <div
+    class="container"
+    id="cardContainer"
+    data-server-variable="<%= schools %>"
+  >
+    <!-- <%//for (let school of schools ) { %>
     <div class="card">
-      <a href="schools/<%=school.id%>" class="box">
+      <a href="schools/<%=//school.id%>" class="box">
         <div class="image">
-          <img src="<%=school.image%>" alt="" />
+          <img src="<%=//school.image%>" alt="" />
         </div>
         <div class="info">
           <div class="title">
-            <span class="schoolTitle"><%= school.title %> </span>
+            <span class="schoolTitle"><%= //school.title %> </span>
           </div>
           <div class="info-sub">
-            <div>
-              <%=school.reviews.length %> review<%=school.reviews.length!=1 ?
-              's' : ''%>
-            </div>
-            <div class="location"><%= school.location %></div>
+            <div><%=//school.reviews.length %> review<%=//school.reviews.length!=1 ? 's' : ''%></div>
+            <div class="location"><%= //school.location %></div>
           </div>
         </div>
       </a>
     </div>
-    <% } %>
+    <%//} %> -->
   </div>
 </div>
 
-<div id="pagination-sect">
-  <div class="left-arrow">
-    <i class="fa-solid fa-arrow-left"></i>
-  </div>
-
-  <ul class="pagination">
-    <li class="pagin-items">
-      <a href="">1</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">2</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">3</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">4</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">5</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">6</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">7</a>
-    </li>
-  </ul>
-  <div class="right-arrow">
-    <i class="fa-solid fa-arrow-right"></i>
-  </div>
-</div>
-<script>
+<script src="/js/indexPageJS.js"></script>
+<!-- <script>
+  let searchBool = false;
   function searchProduct() {
     const input = document.getElementById("search").value.toUpperCase();
+    if (input) {
+      searchBool = true;
+    } else {
+      searchBool = false;
+    }
     const cardContainer = document.getElementById("cardContainer");
     const cards = cardContainer.getElementsByClassName("card");
     for (let i = 0; i < cards.length; i++) {
@@ -85,4 +70,4 @@
       }
     }
   }
-</script>
+</script> -->
