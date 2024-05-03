@@ -9,7 +9,13 @@
     <div class="search-area">
       <div class="search">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" id="search" class="input" placeholder="Search" onkeyup="" />
+        <input
+          type="text"
+          id="search"
+          class="input"
+          placeholder="Search"
+          onkeyup=""
+        />
       </div>
       <div class="result-box"></div>
     </div>
@@ -17,7 +23,11 @@
 </div>
 
 <div id="boxes">
-  <div class="container" id="cardContainer" data-server-variable="<%= schools %>">
+  <div
+    class="container"
+    id="cardContainer"
+    data-server-variable="<%= schools %>"
+  >
     <!-- <%//for (let school of schools ) { %>
     <div class="card">
       <a href="schools/<%=//school.id%>" class="box">
@@ -38,70 +48,9 @@
     <%//} %> -->
   </div>
 </div>
-<!-- 
-<div id="pagination-sect">
-  <div class="left-arrow">
-    <i class="fa-solid fa-arrow-left"></i>
-  </div>
 
-  <ul class="pagination">
-    <li class="pagin-items">
-      <a href="">1</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">2</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">3</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">4</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">5</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">6</a>
-    </li>
-    <li class="pagin-items">
-      <a href="">7</a>
-    </li>
-  </ul>
-  <div class="right-arrow">
-    <i class="fa-solid fa-arrow-right"></i>
-  </div>
-</div> -->
-<script>
-  const schools = JSON.parse(cardContainer.getAttribute("data-server-variable"));
-  const schoolTitles = schools.map((school) => school.title);
-  console.log(schoolTitles);
-  const resultBox = document.querySelector(".result-box");
-  const inputBox = document.getElementById("search");
-  inputBox.onkeyup = function () {
-    let result = [];
-    let input = inputBox.value;
-    if (input.length) {
-      result = schoolTitles.filter((keyword) => {
-        return keyword.toLowerCase().includes(input.toLowerCase());
-      });
-    }
-    display(result);
-  };
-  function display(result) {
-    const content = result.map((list) => {
-      let displaySchool = schools.find((school) => school.title === list);
-      const schoolLink = `/schools/${displaySchool._id}`;
-      return `<a href='${schoolLink}'> <li >` + list + "</li></a>";
-    });
-
-    resultBox.innerHTML = "<ul>" + content.join("") + "</ul>";
-  }
-  function findID(list) {}
-  function selectInput(list) {
-    inputBox.value = list.innerHTML;
-  }
-</script>
-<script>
+<script src="/js/indexPageJS.js"></script>
+<!-- <script>
   let searchBool = false;
   function searchProduct() {
     const input = document.getElementById("search").value.toUpperCase();
@@ -121,55 +70,4 @@
       }
     }
   }
-</script>
-
-<script>
-  const cardContainer = document.getElementById("cardContainer");
-
-  let posts = [];
-  let size = 16;
-  const cardLoad = size;
-  window.onload = function () {
-    loadData();
-  };
-  loadData = () => {
-    console.log("inLOAD");
-    for (let i = size - cardLoad; i < size; i++) {
-      posts.push(schools[i]);
-    }
-    console.log("CURRENT LOADED POSTS", posts);
-    if (posts.length > 0) {
-      for (let j = size - cardLoad; j < size; j++) {
-        let cardItem = ` <div class="card">
-                            <a href="/schools/${posts[j]._id}" class="box">
-                              <div class="image">
-                                <img src="${posts[j].image}" alt="" />
-                              </div>
-                              <div class="info">
-                                <div class="title">
-                                  <span class="schoolTitle">${posts[j].title} </span>
-                                </div>
-                                <div class="info-sub">
-                                  <div>${posts[j].reviews.length} review${
-          posts[j].reviews.length != 1 ? "s" : ""
-        }</div>
-                                  <div class="location">${posts[j].location}</div>
-                                </div>
-                              </div>
-                            </a>
-                          </div>`;
-        cardContainer.insertAdjacentHTML("beforeEnd", cardItem);
-      }
-    }
-    window.onscroll = function () {
-      const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-      if (scrollTop + clientHeight + 0.80005 >= scrollHeight && !searchBool) {
-        setTimeout(() => {
-          size += cardLoad;
-          console.log(size);
-          loadData();
-        }, 500);
-      }
-    };
-  };
-</script>
+</script> -->
