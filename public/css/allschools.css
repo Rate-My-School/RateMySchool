@@ -138,6 +138,7 @@
 #boxes .container .box .info .title {
   font-size: .9rem;
   font-weight: 600;
+  height: 32px;
 }
 
 #boxes .container .box .info .info-sub {
