@@ -1,30 +1,9 @@
 [
     {
-        "title": "Vaughn College of Aeronautics and Technology",
-        "image": "https://i.postimg.cc/RFmCrpcn/Vaughn-College-FBOG.jpgn",
-        "tuition": 26150,
-        "location": "Flushing NY 11369",
-        "rating": 0
-    },
-    {
         "title": "Adelphi University",
         "image": "https://i.postimg.cc/SRvpKgzd/April2020-Campus-95475.jpgn",
         "tuition": 42475,
         "location": "Garden City NY 11530-0701",
-        "rating": 0
-    },
-    {
-        "title": "SUNY Adirondack",
-        "image": "https://i.postimg.cc/P5Zktzfb/NSTEM-CON-188-1.jpgn",
-        "tuition": 5784,
-        "location": "Queensbury NY 12804",
-        "rating": 0
-    },
-    {
-        "title": "Bryant & Stratton College-Albany",
-        "image": "https://i.postimg.cc/j2BsCb8g/bryant-and-stratton-college-albany.jpg",
-        "tuition": 18356,
-        "location": "Albany NY 12205",
         "rating": 0
     },
     {
@@ -42,10 +21,10 @@
         "rating": 0
     },
     {
-        "title": "American Academy of Dramatic Arts-New York",
-        "image": "https://i.postimg.cc/4Nqtjt3R/AADA-at-the-Colony-Club.jpgn",
-        "tuition": 37230,
-        "location": "New York NY 10016",
+        "title": "Alliance University",
+        "image": "https://i.postimg.cc/L4kht8hR/maxresdefault-1140x660.jpgn",
+        "tuition": 26500,
+        "location": "New York NY 10004",
         "rating": 0
     },
     {
@@ -56,10 +35,10 @@
         "rating": 0
     },
     {
-        "title": "Joffrey Ballet School",
-        "image": "https://i.postimg.cc/Nft3VG0b/Joffrey-ballet-school-Manhattan-800x1067.jpgn",
-        "tuition": 21500,
-        "location": "New York NY 10011",
+        "title": "American Academy of Dramatic Arts-New York",
+        "image": "https://i.postimg.cc/4Nqtjt3R/AADA-at-the-Colony-Club.jpgn",
+        "tuition": 37230,
+        "location": "New York NY 10016",
         "rating": 0
     },
     {
@@ -67,6 +46,13 @@
         "image": "https://i.postimg.cc/ZRby6xwp/American-Musical-and-Dramatic-Academy.jpgn",
         "tuition": 42960,
         "location": "New York NY 10023",
+        "rating": 0
+    },
+    {
+        "title": "Arizona State University",
+        "image": "https://i.postimg.cc/F15z0pBV/Downtown.jpgn",
+        "tuition": 11348,
+        "location": "Tempe AZ 85287",
         "rating": 0
     },
     {
@@ -84,10 +70,24 @@
         "rating": 0
     },
     {
+        "title": "Baylor University",
+        "image": "https://i.postimg.cc/52Qx2C9S/VISIT-CONFIRMATION-PAGE-1000x333.jpgn",
+        "tuition": 50232,
+        "location": "Waco TX 76798",
+        "rating": 0
+    },
+    {
         "title": "Berkeley College-New York",
         "image": "https://i.postimg.cc/J0gDVVM5/veterans-day-parade-bts.jpgn",
         "tuition": 27600,
         "location": "New York NY 10017",
+        "rating": 0
+    },
+    {
+        "title": "Binghamton University",
+        "image": "https://i.postimg.cc/HsYWQGrh/20221010-autumn08-sj.jpgn",
+        "tuition": 10390,
+        "location": "Vestal NY 13850-6000",
         "rating": 0
     },
     {
@@ -98,17 +98,24 @@
         "rating": 0
     },
     {
-        "title": "SUNY Broome Community College",
-        "image": "https://i.postimg.cc/zXbHwBFt/2013-11-27-SUNY-BROOME-B-300x225-300x225.jpgn",
-        "tuition": 6332,
-        "location": "Binghamton NY 13901-1001",
+        "title": "Boston University",
+        "image": "https://i.postimg.cc/L6n3D80q/maxresdefault.jpgn",
+        "tuition": 59816,
+        "location": "Boston MA 02215",
         "rating": 0
     },
     {
-        "title": "Bryant & Stratton College-Syracuse North",
-        "image": "https://i.postimg.cc/3NGfJLNv/bryant-stratton-new-clay-location-bsc-provided.jpgn",
-        "tuition": 18170,
-        "location": "Liverpool NY 13090",
+        "title": "Brown University",
+        "image": "https://i.postimg.cc/RZK2ZdmL/01-About.jpgn",
+        "tuition": 62304,
+        "location": "Providence RI 02912",
+        "rating": 0
+    },
+    {
+        "title": "Bryant & Stratton College-Albany",
+        "image": "https://i.postimg.cc/j2BsCb8g/bryant-and-stratton-college-albany.jpg",
+        "tuition": 18356,
+        "location": "Albany NY 12205",
         "rating": 0
     },
     {
@@ -126,108 +133,10 @@
         "rating": 0
     },
     {
-        "title": "Canisius College",
-        "image": "https://i.postimg.cc/mky0nMMY/oes-web-main-page-quad-arial-0.pngn",
-        "tuition": 30910,
-        "location": "Buffalo NY 14208-1098",
-        "rating": 0
-    },
-    {
-        "title": "St Paul's School of Nursing-Queens",
-        "image": "https://i.postimg.cc/pXkwYfPx/img.pngn",
-        "tuition": 21270,
-        "location": "Rego Park NY 11374",
-        "rating": 0
-    },
-    {
-        "title": "Cayuga County Community College",
-        "image": "https://i.postimg.cc/76gcC7KF/Campus-PHoto-for-Website.jpgn",
-        "tuition": 6292,
-        "location": "Auburn NY 13021-3099",
-        "rating": 0
-    },
-    {
-        "title": "Cazenovia College",
-        "image": "https://i.postimg.cc/pTYGVvTx/2372240d-add6-40d2-a389-35a851be8f3c-full1x1-thumbnail-Cazenovia-College-Campus.jpgn",
-        "tuition": 36668,
-        "location": "Cazenovia NY 13035",
-        "rating": 0
-    },
-    {
-        "title": "Circle in the Square Theatre School",
-        "image": "https://i.postimg.cc/mZP1Z2kS/f69a79a896532278a6cdd99bb0ce00de89b836b7.jpg",
-        "tuition": 21540,
-        "location": "New York NY 10019-6795",
-        "rating": 0
-    },
-    {
-        "title": "Clarkson University",
-        "image": "https://i.postimg.cc/8zPpBkWJ/student-center-hero-1600x900-0.jpgn",
-        "tuition": 54370,
-        "location": "Potsdam NY 13699",
-        "rating": 0
-    },
-    {
-        "title": "Clinton Community College",
-        "image": "https://i.postimg.cc/bwCz6XH6/Moore-Back.jpgn",
-        "tuition": 6831,
-        "location": "Plattsburgh NY 12901",
-        "rating": 0
-    },
-    {
-        "title": "Colgate University",
-        "image": "https://i.postimg.cc/dQ2wbZjZ/Colgate-Landmarks-000064-1.jpgn",
-        "tuition": 61966,
-        "location": "Hamilton NY 13346-1398",
-        "rating": 0
-    },
-    {
-        "title": "Metropolitan College of New York",
-        "image": "https://i.postimg.cc/fLGzRsqH/image.jpg",
-        "tuition": 20188,
-        "location": "New York NY 10006-1742",
-        "rating": 0
-    },
-    {
-        "title": "Columbia University in the City of New York",
-        "image": "https://i.postimg.cc/T346VVfF/Morningside-Campus-at-Dusk-2.jpgn",
-        "tuition": 63530,
-        "location": "New York NY 10027",
-        "rating": 0
-    },
-    {
-        "title": "Columbia-Greene Community College",
-        "image": "https://i.postimg.cc/J75C6VRb/CGCC-Landscapes-4-of-5-1600x800-1600x800.jpgn",
-        "tuition": 5616,
-        "location": "Hudson NY 12534",
-        "rating": 0
-    },
-    {
-        "title": "The Cooper Union for the Advancement of Science and Art",
-        "image": "https://i.postimg.cc/vH8FCqmC/220px-Cooper-Union-Cooper-Union-Academic-Building-48072701728.jpgn",
-        "tuition": 46820,
-        "location": "New York NY 10003-7120",
-        "rating": 0
-    },
-    {
-        "title": "Cornell University",
-        "image": "https://i.postimg.cc/6pysp8n0/Cornell-Clock-Tower-credit-Cornell-University-UP-2016-1413-089-web-d1ca9d1a-ff75-4951-87af-33f061487.pngn",
-        "tuition": 61015,
-        "location": "Ithaca NY 14853",
-        "rating": 0
-    },
-    {
-        "title": "SUNY Corning Community College",
-        "image": "https://i.postimg.cc/wMv2Qm64/perry-hall-1080x1080.jpgn",
-        "tuition": 5966,
-        "location": "Corning NY 14830",
-        "rating": 0
-    },
-    {
-        "title": "Culinary Institute of America",
-        "image": "https://i.postimg.cc/pVKxJg6H/aerials3-002.jpg",
-        "tuition": 35550,
-        "location": "Hyde Park NY 12538-1499",
+        "title": "Bryant & Stratton College-Syracuse North",
+        "image": "https://i.postimg.cc/3NGfJLNv/bryant-stratton-new-clay-location-bsc-provided.jpgn",
+        "tuition": 18170,
+        "location": "Liverpool NY 13090",
         "rating": 0
     },
     {
@@ -256,13 +165,6 @@
         "image": "https://i.postimg.cc/q7TGZYJ3/CE-230118-Drone-03-5.jpgn",
         "tuition": 7440,
         "location": "Brooklyn NY 11210",
-        "rating": 0
-    },
-    {
-        "title": "College of Staten Island CUNY",
-        "image": "https://i.postimg.cc/257xpwyX/CSI-horizontal.jpgn",
-        "tuition": 7490,
-        "location": "Staten Island NY 10314",
         "rating": 0
     },
     {
@@ -357,6 +259,132 @@
         "rating": 0
     },
     {
+        "title": "California Institute of Technology",
+        "image": "https://i.postimg.cc/Twy0N2tY/xg73nnzaqnttxruvbwiu.pngn",
+        "tuition": 58680,
+        "location": "Pasadena CA 91125",
+        "rating": 0
+    },
+    {
+        "title": "Canisius College",
+        "image": "https://i.postimg.cc/mky0nMMY/oes-web-main-page-quad-arial-0.pngn",
+        "tuition": 30910,
+        "location": "Buffalo NY 14208-1098",
+        "rating": 0
+    },
+    {
+        "title": "Carnegie Mellon University",
+        "image": "https://i.postimg.cc/vmnL52Tc/interactive-map-icon-image.pngn",
+        "tuition": 58924,
+        "location": "Pittsburgh PA 15213-3890",
+        "rating": 0
+    },
+    {
+        "title": "Case Western Reserve University",
+        "image": "https://i.postimg.cc/7Z67LXjJ/campus-aerial-pbl-news.jpgn",
+        "tuition": 54532,
+        "location": "Cleveland OH 44106",
+        "rating": 0
+    },
+    {
+        "title": "Cayuga County Community College",
+        "image": "https://i.postimg.cc/76gcC7KF/Campus-PHoto-for-Website.jpgn",
+        "tuition": 6292,
+        "location": "Auburn NY 13021-3099",
+        "rating": 0
+    },
+    {
+        "title": "Cazenovia College",
+        "image": "https://i.postimg.cc/pTYGVvTx/2372240d-add6-40d2-a389-35a851be8f3c-full1x1-thumbnail-Cazenovia-College-Campus.jpgn",
+        "tuition": 36668,
+        "location": "Cazenovia NY 13035",
+        "rating": 0
+    },
+    {
+        "title": "Circle in the Square Theatre School",
+        "image": "https://i.postimg.cc/mZP1Z2kS/f69a79a896532278a6cdd99bb0ce00de89b836b7.jpg",
+        "tuition": 21540,
+        "location": "New York NY 10019-6795",
+        "rating": 0
+    },
+    {
+        "title": "Clarkson University",
+        "image": "https://i.postimg.cc/8zPpBkWJ/student-center-hero-1600x900-0.jpgn",
+        "tuition": 54370,
+        "location": "Potsdam NY 13699",
+        "rating": 0
+    },
+    {
+        "title": "Clinton Community College",
+        "image": "https://i.postimg.cc/bwCz6XH6/Moore-Back.jpgn",
+        "tuition": 6831,
+        "location": "Plattsburgh NY 12901",
+        "rating": 0
+    },
+    {
+        "title": "Colgate University",
+        "image": "https://i.postimg.cc/dQ2wbZjZ/Colgate-Landmarks-000064-1.jpgn",
+        "tuition": 61966,
+        "location": "Hamilton NY 13346-1398",
+        "rating": 0
+    },
+    {
+        "title": "College of Mount Saint Vincent",
+        "image": "https://i.postimg.cc/bYGJ1CQ0/BX-Collegeof-Mt-St-Vincent-creditsite-scaled.jpg",
+        "tuition": 40980,
+        "location": "Bronx NY 10471-1093",
+        "rating": 0
+    },
+    {
+        "title": "College of Staten Island CUNY",
+        "image": "https://i.postimg.cc/257xpwyX/CSI-horizontal.jpgn",
+        "tuition": 7490,
+        "location": "Staten Island NY 10314",
+        "rating": 0
+    },
+    {
+        "title": "Colorado State University",
+        "image": "https://i.postimg.cc/hj8MxZvK/23017-06907.jpgn",
+        "tuition": 12331,
+        "location": "Fort Collins CO 80523",
+        "rating": 0
+    },
+    {
+        "title": "Columbia University",
+        "image": "https://i.postimg.cc/hPRsMBTc/maxresdefault.jpgn",
+        "tuition": 63530,
+        "location": "New York NY 10027",
+        "rating": 0
+    },
+    {
+        "title": "Columbia University in the City of New York",
+        "image": "https://i.postimg.cc/T346VVfF/Morningside-Campus-at-Dusk-2.jpgn",
+        "tuition": 63530,
+        "location": "New York NY 10027",
+        "rating": 0
+    },
+    {
+        "title": "Columbia-Greene Community College",
+        "image": "https://i.postimg.cc/J75C6VRb/CGCC-Landscapes-4-of-5-1600x800-1600x800.jpgn",
+        "tuition": 5616,
+        "location": "Hudson NY 12534",
+        "rating": 0
+    },
+    {
+        "title": "Cornell University",
+        "image": "https://i.postimg.cc/6pysp8n0/Cornell-Clock-Tower-credit-Cornell-University-UP-2016-1413-089-web-d1ca9d1a-ff75-4951-87af-33f061487.pngn",
+        "tuition": 61015,
+        "location": "Ithaca NY 14853",
+        "rating": 0
+    },
+    {
+        "title": "Culinary Institute of America",
+        "image": "https://i.postimg.cc/pVKxJg6H/aerials3-002.jpg",
+        "tuition": 35550,
+        "location": "Hyde Park NY 12538-1499",
+        "rating": 0
+    },
+    {
         "title": "D'Youville  University",
         "image": "https://i.postimg.cc/mDh1dNH9/aerial-campus-peace-bridge.jpgn",
         "tuition": 30108,
@@ -371,10 +399,31 @@
         "rating": 0
     },
     {
+        "title": "Dartmouth College",
+        "image": "https://i.postimg.cc/2jc9xJT5/Dartmouth-by-Brave-Sir-Robin-2.jpgn",
+        "tuition": 60870,
+        "location": "Hanover NH 03755-3529",
+        "rating": 0
+    },
+    {
+        "title": "Davis College",
+        "image": "https://i.postimg.cc/y8KpFGSk/dcob-exterior-header.jpg",
+        "tuition": 17150,
+        "location": "Pottersville NY 12860",
+        "rating": 0
+    },
+    {
         "title": "Dominican University New York",
         "image": "https://i.postimg.cc/zvgbNzpX/Dominican-University.jpgn",
         "tuition": 31460,
         "location": "Orangeburg NY 10962-1210",
+        "rating": 0
+    },
+    {
+        "title": "Duke University",
+        "image": "https://i.postimg.cc/dQCPLJJY/198419-hero.jpgn",
+        "tuition": 60244,
+        "location": "Durham NC 27708",
         "rating": 0
     },
     {
@@ -392,10 +441,31 @@
         "rating": 0
     },
     {
+        "title": "Emory University",
+        "image": "https://i.postimg.cc/c15QvN4d/maxresdefault.jpgn",
+        "tuition": 55468,
+        "location": "Atlanta GA 30322",
+        "rating": 0
+    },
+    {
+        "title": "Empire State University",
+        "image": "https://i.postimg.cc/Ssp0G8xG/IMG-4929.jpgn",
+        "tuition": 7630,
+        "location": "Saratoga Springs NY 12866-4391",
+        "rating": 0
+    },
+    {
         "title": "Erie Community College",
         "image": "https://i.postimg.cc/CL86K9KR/191083-hero.jpgn",
         "tuition": 5722,
         "location": "Buffalo NY 14203-2698",
+        "rating": 0
+    },
+    {
+        "title": "Farmingdale State College",
+        "image": "https://i.postimg.cc/mZQhYN8t/Farmingdale-State-01-1260x840.jpgn",
+        "tuition": 8576,
+        "location": "Farmingdale NY 11735-1021",
         "rating": 0
     },
     {
@@ -420,6 +490,13 @@
         "rating": 0
     },
     {
+        "title": "Florida State University",
+        "image": "https://i.postimg.cc/RFmyjHnV/Visit-Banner2.jpgn",
+        "tuition": 5656,
+        "location": "Tallahassee FL 32306-1037",
+        "rating": 0
+    },
+    {
         "title": "Fordham University",
         "image": "https://i.postimg.cc/9fLLShLn/dsc01731.jpgn",
         "tuition": 56161,
@@ -441,6 +518,20 @@
         "rating": 0
     },
     {
+        "title": "George Washington University",
+        "image": "https://i.postimg.cc/FKnggwX4/Foggy-Bottom-Campus-Life-fallstock15-up-2015-ZWM-9934-1.jpgn",
+        "tuition": 59870,
+        "location": "Washington DC 20052",
+        "rating": 0
+    },
+    {
+        "title": "Georgia Institute of Technology",
+        "image": "https://i.postimg.cc/m2z7M6tC/georgia-institute-technology-578.jpgn",
+        "tuition": 12852,
+        "location": "Atlanta GA 30332",
+        "rating": 0
+    },
+    {
         "title": "Hamilton College",
         "image": "https://i.postimg.cc/hjH1WPTp/chapelaerialf22jpg.jpgn",
         "tuition": 59970,
@@ -452,6 +543,13 @@
         "image": "https://i.postimg.cc/yxcXV4TB/why-hartwick-1-767x230.jpgn",
         "tuition": 49814,
         "location": "Oneonta NY 13820-4020",
+        "rating": 0
+    },
+    {
+        "title": "Harvard University",
+        "image": "https://i.postimg.cc/YSCbgzgF/widener.jpgn",
+        "tuition": 55587,
+        "location": "Cambridge MA 02138",
         "rating": 0
     },
     {
@@ -497,10 +595,24 @@
         "rating": 0
     },
     {
+        "title": "Indiana University Bloomington",
+        "image": "https://i.postimg.cc/QtghRD41/Campus-Downtown-Aug2016-79-1d76e6ef-fac6-47b8-955d-484897da2260.jpgn",
+        "tuition": 11333,
+        "location": "Bloomington IN 47405",
+        "rating": 0
+    },
+    {
         "title": "Iona University",
         "image": "https://i.postimg.cc/8PTrF6pL/iona-murphy-green-for-blog.jpgn",
         "tuition": 42828,
         "location": "New Rochelle NY 10801-1890",
+        "rating": 0
+    },
+    {
+        "title": "Iowa State University",
+        "image": "https://i.postimg.cc/BZpX1HTT/wall-campanile.jpgn",
+        "tuition": 9634,
+        "location": "Ames IA 50011-2103",
         "rating": 0
     },
     {
@@ -511,17 +623,17 @@
         "rating": 0
     },
     {
-        "title": "Jamestown Community College",
-        "image": "https://i.postimg.cc/g2JXsb6J/348s.jpgn",
-        "tuition": 6350,
-        "location": "Jamestown NY 14701",
-        "rating": 0
-    },
-    {
         "title": "Jamestown Business College",
         "image": "https://i.postimg.cc/W1HDfYM7/building.jpgn",
         "tuition": 12945,
         "location": "Jamestown NY 14701-4756",
+        "rating": 0
+    },
+    {
+        "title": "Jamestown Community College",
+        "image": "https://i.postimg.cc/g2JXsb6J/348s.jpgn",
+        "tuition": 6350,
+        "location": "Jamestown NY 14701",
         "rating": 0
     },
     {
@@ -539,10 +651,24 @@
         "rating": 0
     },
     {
-        "title": "The Juilliard School",
-        "image": "https://i.postimg.cc/tThYJX8r/2-siteaerial-2400x1350.jpgn",
-        "tuition": 51230,
-        "location": "New York NY 10023-6588",
+        "title": "Joffrey Ballet School",
+        "image": "https://i.postimg.cc/Nft3VG0b/Joffrey-ballet-school-Manhattan-800x1067.jpgn",
+        "tuition": 21500,
+        "location": "New York NY 10011",
+        "rating": 0
+    },
+    {
+        "title": "Johns Hopkins University",
+        "image": "https://i.postimg.cc/jSFJgHmP/gilman-quad0508.jpgn",
+        "tuition": 58720,
+        "location": "Baltimore MD 21218-2688",
+        "rating": 0
+    },
+    {
+        "title": "Kansas State University",
+        "image": "https://i.postimg.cc/QtkwMXWb/masthead-visit-k-state.jpgn",
+        "tuition": 10420,
+        "location": "Manhattan KS 66506",
         "rating": 0
     },
     {
@@ -560,17 +686,17 @@
         "rating": 0
     },
     {
-        "title": "Long Island University",
-        "image": "https://i.postimg.cc/VLyhDvbG/B6255-A6-ACA024-D1-BA448-BE7-C7-A229-A6-C.jpg",
-        "tuition": 39290,
-        "location": "Brookville NY 11548-1327",
-        "rating": 0
-    },
-    {
         "title": "Long Island Business Institute",
         "image": "https://i.postimg.cc/QN749Dnp/libi-logo.png",
         "tuition": 11066,
         "location": "Flushing NY 11354-5577",
+        "rating": 0
+    },
+    {
+        "title": "Long Island University",
+        "image": "https://i.postimg.cc/VLyhDvbG/B6255-A6-ACA024-D1-BA448-BE7-C7-A229-A6-C.jpg",
+        "tuition": 39290,
+        "location": "Brookville NY 11548-1327",
         "rating": 0
     },
     {
@@ -623,10 +749,10 @@
         "rating": 0
     },
     {
-        "title": "St. Peter's Hospital College of Nursing",
-        "image": "https://i.postimg.cc/bNdpFyLK/St-Peters-Hospital-Albany-NY-1-300x211.jpgn",
-        "tuition": 14292,
-        "location": "Albany NY 12208",
+        "title": "Massachusetts Institute of Technology",
+        "image": "https://i.postimg.cc/htgC4Btp/1200px-MIT-Main-Campus-Aerial.jpgn",
+        "tuition": 55878,
+        "location": "Cambridge MA 02139-4307",
         "rating": 0
     },
     {
@@ -634,6 +760,20 @@
         "image": "https://i.postimg.cc/MGkXGyc0/image.jpg",
         "tuition": 20734,
         "location": "Dobbs Ferry NY 10522",
+        "rating": 0
+    },
+    {
+        "title": "Metropolitan College of New York",
+        "image": "https://i.postimg.cc/fLGzRsqH/image.jpg",
+        "tuition": 20188,
+        "location": "New York NY 10006-1742",
+        "rating": 0
+    },
+    {
+        "title": "Michigan State University",
+        "image": "https://i.postimg.cc/C1hjqhqx/Michigan-State-University.pngn",
+        "tuition": 14750,
+        "location": "East Lansing MI 48824-1046",
         "rating": 0
     },
     {
@@ -672,13 +812,6 @@
         "rating": 0
     },
     {
-        "title": "Mount Saint Mary College",
-        "image": "https://i.postimg.cc/jjYhFj6c/MSMC-campus.jpgn",
-        "tuition": 36132,
-        "location": "Newburgh NY 12550",
-        "rating": 0
-    },
-    {
         "title": "Montefiore School of Nursing",
         "image": "https://i.postimg.cc/HnJC5hRr/MAGNET-RECOGNIZED-WAKEFIELD-EXTERIOR-V02.jpg",
         "tuition": 12698,
@@ -686,10 +819,10 @@
         "rating": 0
     },
     {
-        "title": "College of Mount Saint Vincent",
-        "image": "https://i.postimg.cc/bYGJ1CQ0/BX-Collegeof-Mt-St-Vincent-creditsite-scaled.jpg",
-        "tuition": 40980,
-        "location": "Bronx NY 10471-1093",
+        "title": "Mount Saint Mary College",
+        "image": "https://i.postimg.cc/jjYhFj6c/MSMC-campus.jpgn",
+        "tuition": 36132,
+        "location": "Newburgh NY 12550",
         "rating": 0
     },
     {
@@ -714,10 +847,17 @@
         "rating": 0
     },
     {
-        "title": "The New School",
-        "image": "https://i.postimg.cc/mD1s1n0t/SOM-New-School-James-Ewing-0138-1.jpg",
-        "tuition": 52494,
-        "location": "New York NY 10011",
+        "title": "New York Institute of Technology",
+        "image": "https://i.postimg.cc/652MJXC7/image.jpg",
+        "tuition": 39760,
+        "location": "Old Westbury NY 11568-8000",
+        "rating": 0
+    },
+    {
+        "title": "New York School of Interior Design",
+        "image": "https://i.postimg.cc/6qV7T94W/image.jpgn",
+        "tuition": 27200,
+        "location": "New York NY 10021",
         "rating": 0
     },
     {
@@ -742,6 +882,13 @@
         "rating": 0
     },
     {
+        "title": "North Carolina State University",
+        "image": "https://i.postimg.cc/13H9CsdF/ncstate-campus-life.jpgn",
+        "tuition": 9131,
+        "location": "Raleigh NC 27695",
+        "rating": 0
+    },
+    {
         "title": "North Country Community College",
         "image": "https://i.postimg.cc/rFP7xjN4/1200px-NCCC-Hodson-Hall.jpg",
         "tuition": 6562,
@@ -749,24 +896,17 @@
         "rating": 0
     },
     {
-        "title": "New York Institute of Technology",
-        "image": "https://i.postimg.cc/652MJXC7/image.jpg",
-        "tuition": 39760,
-        "location": "Old Westbury NY 11568-8000",
+        "title": "Northwestern University",
+        "image": "https://i.postimg.cc/13f8qgXt/campus1940-Fit-Max-Wzk3-MCw2-NTBd.jpgn",
+        "tuition": 60768,
+        "location": "Evanston IL 60208",
         "rating": 0
     },
     {
-        "title": "New York School of Interior Design",
-        "image": "https://i.postimg.cc/6qV7T94W/image.jpgn",
-        "tuition": 27200,
-        "location": "New York NY 10021",
-        "rating": 0
-    },
-    {
-        "title": "Alliance University",
-        "image": "https://i.postimg.cc/L4kht8hR/maxresdefault-1140x660.jpgn",
-        "tuition": 26500,
-        "location": "New York NY 10004",
+        "title": "Ohio State University",
+        "image": "https://i.postimg.cc/nV9yWpWW/1920-ohiostatecampus-497663.jpgn",
+        "tuition": 11936,
+        "location": "Columbus OH 43210",
         "rating": 0
     },
     {
@@ -784,6 +924,13 @@
         "rating": 0
     },
     {
+        "title": "Oregon State University",
+        "image": "https://i.postimg.cc/BQ1y8cDb/sign-entrance-reser-stadium.jpgn",
+        "tuition": 12188,
+        "location": "Corvallis OR 97331",
+        "rating": 0
+    },
+    {
         "title": "Pace University",
         "image": "https://i.postimg.cc/nhNH8yM0/campus-life-homepage-hero-jan-23.jpgn",
         "tuition": 48830,
@@ -798,17 +945,17 @@
         "rating": 0
     },
     {
+        "title": "Pennsylvania State University",
+        "image": "https://i.postimg.cc/YC0fXqnG/F5535436-B96-F-1-C02-306017921075-A3-F3-card-short.jpgn",
+        "tuition": 18898,
+        "location": "University Park PA 16802",
+        "rating": 0
+    },
+    {
         "title": "Plaza College",
         "image": "https://i.postimg.cc/nzWq0XR3/image.jpg",
         "tuition": 13450,
         "location": "Forest Hills NY 11375",
-        "rating": 0
-    },
-    {
-        "title": "Davis College",
-        "image": "https://i.postimg.cc/y8KpFGSk/dcob-exterior-header.jpg",
-        "tuition": 17150,
-        "location": "Pottersville NY 12860",
         "rating": 0
     },
     {
@@ -819,10 +966,31 @@
         "rating": 0
     },
     {
+        "title": "Princeton University",
+        "image": "https://i.postimg.cc/NGHb1Myd/virtualtour-blairarch-1150-0.jpgn",
+        "tuition": 56010,
+        "location": "Princeton NJ 08544-0070",
+        "rating": 0
+    },
+    {
+        "title": "Purdue University",
+        "image": "https://i.postimg.cc/wvwD5CXc/visit-landing-banner-992.jpgn",
+        "tuition": 10125,
+        "location": "West Lafayette IN 47906",
+        "rating": 0
+    },
+    {
         "title": "Rensselaer Polytechnic Institute",
         "image": "https://i.postimg.cc/Xqt2NkFS/home-slider-empac-sm.jpgn",
         "tuition": 58526,
         "location": "Troy NY 12180-3590",
+        "rating": 0
+    },
+    {
+        "title": "Rice University",
+        "image": "https://i.postimg.cc/GtNYVvS4/Home-Rice-Aerial-View.jpgn",
+        "tuition": 52895,
+        "location": "Houston TX 77005-1827",
         "rating": 0
     },
     {
@@ -840,13 +1008,6 @@
         "rating": 0
     },
     {
-        "title": "University of Rochester",
-        "image": "https://i.postimg.cc/mrdKfMdR/river-campus.jpgn",
-        "tuition": 59378,
-        "location": "Rochester NY 14627-0011",
-        "rating": 0
-    },
-    {
         "title": "Rockland Community College",
         "image": "https://i.postimg.cc/8kWbtHGW/Tech-Center-Lit-Up-Woodruff-Brown-1-scaled.jpg",
         "tuition": 6120,
@@ -861,101 +1022,80 @@
         "rating": 0
     },
     {
-        "title": "St Bonaventure University",
-        "image": "https://i.postimg.cc/3NHmPshG/ogimage.jpg",
-        "tuition": 37640,
-        "location": "Saint Bonaventure NY 14778-9800",
+        "title": "Rutgers The State University of New Jersey",
+        "image": "https://i.postimg.cc/d015bj5B/Rutgers-New-Brunswick.jpgn",
+        "tuition": 15208,
+        "location": "Newark NJ 07102",
         "rating": 0
     },
     {
-        "title": "St. Francis College",
-        "image": "https://i.postimg.cc/d1kHbfkm/St-Francis-College-Science-and-Technology-Building-Remsen-St-credit-Ajay-Suresh-Wikimedia-Commons.jpgn",
-        "tuition": 27298,
-        "location": "Brooklyn NY 11201",
+        "title": "SUNY Adirondack",
+        "image": "https://i.postimg.cc/P5Zktzfb/NSTEM-CON-188-1.jpgn",
+        "tuition": 5784,
+        "location": "Queensbury NY 12804",
         "rating": 0
     },
     {
-        "title": "St. Joseph's College of Nursing",
-        "image": "https://i.postimg.cc/GtQ869q0/image.jpg",
-        "tuition": 22454,
-        "location": "Syracuse NY 13203",
+        "title": "SUNY Brockport",
+        "image": "https://i.postimg.cc/PJL47VJs/4389-lab-fountain-hartwell-railroad-tracks-main-quad-drone-fall-colors-5-1800-rev-1657550885.jpgn",
+        "tuition": 8678,
+        "location": "Brockport NY 14420-2919",
         "rating": 0
     },
     {
-        "title": "St Lawrence University",
-        "image": "https://i.postimg.cc/jd3Cfp1h/Fast-Facts.jpg",
-        "tuition": 60220,
-        "location": "Canton NY 13617",
+        "title": "SUNY Broome Community College",
+        "image": "https://i.postimg.cc/zXbHwBFt/2013-11-27-SUNY-BROOME-B-300x225-300x225.jpgn",
+        "tuition": 6332,
+        "location": "Binghamton NY 13901-1001",
         "rating": 0
     },
     {
-        "title": "St. Thomas Aquinas College",
-        "image": "https://i.postimg.cc/Cx9mjN6R/2-Staircase.jpgn",
-        "tuition": 35300,
-        "location": "Sparkill NY 10976-1050",
+        "title": "SUNY Buffalo State University",
+        "image": "https://i.postimg.cc/vBK757zP/quad-mann.jpgn",
+        "tuition": 8486,
+        "location": "Buffalo NY 14222",
         "rating": 0
     },
     {
-        "title": "Sarah Lawrence College",
-        "image": "https://i.postimg.cc/hPLdC0jJ/Hotel-Van-Curler-Schenectady-NY.jpgn",
-        "tuition": 59470,
-        "location": "Bronxville NY 10708",
+        "title": "SUNY College at Geneseo",
+        "image": "https://i.postimg.cc/Nj7jTg4S/sturges-hall-square.jpgn",
+        "tuition": 8927,
+        "location": "Geneseo NY 14454-1465",
         "rating": 0
     },
     {
-        "title": "Schenectady County Community College",
-        "image": "https://i.postimg.cc/0yL1b7Yf/482680-hero.jpgn",
-        "tuition": 5524,
-        "location": "Schenectady NY 12305",
+        "title": "SUNY College at Old Westbury",
+        "image": "https://i.postimg.cc/Mpv8ZqL1/Woodlands.jpgn",
+        "tuition": 8379,
+        "location": "Old Westbury NY 11568-0210",
         "rating": 0
     },
     {
-        "title": "Siena College",
-        "image": "https://i.postimg.cc/bNc6DLWd/195526-hero.jpgn",
-        "tuition": 40960,
-        "location": "Loudonville NY 12211-1462",
+        "title": "SUNY College at Plattsburgh",
+        "image": "https://i.postimg.cc/wjZY7nKZ/macdonough.jpgn",
+        "tuition": 8911,
+        "location": "Plattsburgh NY 12901-2681",
         "rating": 0
     },
     {
-        "title": "Skidmore College",
-        "image": "https://i.postimg.cc/T3b8ZQF6/criminal-justice-3-1-9-li.jpgn",
-        "tuition": 60302,
-        "location": "Saratoga Springs NY 12866",
+        "title": "SUNY College at Potsdam",
+        "image": "https://i.postimg.cc/7LJD9wMq/SUNY-Potsdam-view.jpgn",
+        "tuition": 8712,
+        "location": "Potsdam NY 13676-2294",
         "rating": 0
     },
     {
-        "title": "St. Joseph's University-New York",
-        "image": "https://i.postimg.cc/MTsJ4SVP/195544-hero.jpg",
-        "tuition": 30576,
-        "location": "Brooklyn NY 11205-3688",
+        "title": "SUNY College of Agriculture and Technology at Cobleskill",
+        "image": "https://i.postimg.cc/1XZXxf5m/image.jpgn",
+        "tuition": 8676,
+        "location": "Cobleskill NY 12043",
         "rating": 0
     },
     {
-        "title": "Saint Elizabeth College of Nursing",
-        "image": "https://i.postimg.cc/ZRxvj84P/Visit-Hero.jpgn",
-        "tuition": 18750,
-        "location": "Utica NY 13501",
-        "rating": 0
-    },
-    {
-        "title": "St. John Fisher University",
-        "image": "https://i.postimg.cc/J4Z0Q3xs/Queens-9-1600x900.jpgn",
-        "tuition": 36352,
-        "location": "Rochester NY 14618-3597",
-        "rating": 0
-    },
-    {
-        "title": "St Paul's School of Nursing-Staten Island",
-        "image": "https://i.postimg.cc/LsBsMmw2/img.pngn",
-        "tuition": 18075,
-        "location": "Staten Island NY 10311",
-        "rating": 0
-    },
-    {
-        "title": "Sullivan County Community College",
-        "image": "https://i.postimg.cc/vZTjshKB/exterior-1024x516.jpgn",
-        "tuition": 6308,
-        "location": "Loch Sheldrake NY 12759-5151",
+        "title": "SUNY College of Environmental Science and Forestry",
+        "image": "https://i.postimg.cc/0NdHG4MV/Campus.jpgn",
+        "tuition": 9206,
+        "location": "Syracuse NY 13210",
         "rating": 0
     },
     {
@@ -980,80 +1120,10 @@
         "rating": 0
     },
     {
-        "title": "SUNY College of Agriculture and Technology at Cobleskill",
-        "image": "https://i.postimg.cc/1XZXxf5m/image.jpgn",
-        "tuition": 8676,
-        "location": "Cobleskill NY 12043",
-        "rating": 0
-    },
-    {
-        "title": "Farmingdale State College",
-        "image": "https://i.postimg.cc/mZQhYN8t/Farmingdale-State-01-1260x840.jpgn",
-        "tuition": 8576,
-        "location": "Farmingdale NY 11735-1021",
-        "rating": 0
-    },
-    {
-        "title": "SUNY Morrisville",
-        "image": "https://i.postimg.cc/yYsxvgbn/SUNY-Morrisville-State-College-public-colleges-public-schools.jpgn",
-        "tuition": 8741,
-        "location": "Morrisville NY 13408",
-        "rating": 0
-    },
-    {
-        "title": "SUNY at Albany",
-        "image": "https://i.postimg.cc/BvrQDXFT/image.jpgn",
-        "tuition": 10408,
-        "location": "Albany NY 12222",
-        "rating": 0
-    },
-    {
-        "title": "Binghamton University",
-        "image": "https://i.postimg.cc/HsYWQGrh/20221010-autumn08-sj.jpgn",
-        "tuition": 10390,
-        "location": "Vestal NY 13850-6000",
-        "rating": 0
-    },
-    {
-        "title": "University at Buffalo",
-        "image": "https://i.postimg.cc/hPvWDKzc/University-at-Buffalo.pngn",
-        "tuition": 10782,
-        "location": "Buffalo NY 14260-1660",
-        "rating": 0
-    },
-    {
-        "title": "Stony Brook University",
-        "image": "https://i.postimg.cc/qBmSZWmY/campus-visit-banner.jpgn",
-        "tuition": 10455,
-        "location": "Stony Brook NY 11794-0701",
-        "rating": 0
-    },
-    {
-        "title": "SUNY College of Environmental Science and Forestry",
-        "image": "https://i.postimg.cc/0NdHG4MV/Campus.jpgn",
-        "tuition": 9206,
-        "location": "Syracuse NY 13210",
-        "rating": 0
-    },
-    {
-        "title": "SUNY Polytechnic Institute",
-        "image": "https://i.postimg.cc/sDknkz5n/7519d427-3cb4-45f4-8735-b30b9a287fbd.jpgn",
-        "tuition": 8548,
-        "location": "Utica NY 13502",
-        "rating": 0
-    },
-    {
-        "title": "SUNY Brockport",
-        "image": "https://i.postimg.cc/PJL47VJs/4389-lab-fountain-hartwell-railroad-tracks-main-quad-drone-fall-colors-5-1800-rev-1657550885.jpgn",
-        "tuition": 8678,
-        "location": "Brockport NY 14420-2919",
-        "rating": 0
-    },
-    {
-        "title": "SUNY Buffalo State University",
-        "image": "https://i.postimg.cc/vBK757zP/quad-mann.jpgn",
-        "tuition": 8486,
-        "location": "Buffalo NY 14222",
+        "title": "SUNY Corning Community College",
+        "image": "https://i.postimg.cc/wMv2Qm64/perry-hall-1080x1080.jpgn",
+        "tuition": 5966,
+        "location": "Corning NY 14830",
         "rating": 0
     },
     {
@@ -1064,24 +1134,17 @@
         "rating": 0
     },
     {
-        "title": "SUNY at Fredonia",
-        "image": "https://i.postimg.cc/gkhJzy6Y/SUNY-Fredonia.jpgn",
-        "tuition": 8760,
-        "location": "Fredonia NY 14063-1136",
+        "title": "SUNY Maritime College",
+        "image": "https://i.postimg.cc/qRcPDRtH/Fort-Schuyler-Maritime-Academy-Campus.jpgn",
+        "tuition": 8522,
+        "location": "Throggs Neck NY 10465-4198",
         "rating": 0
     },
     {
-        "title": "SUNY College at Geneseo",
-        "image": "https://i.postimg.cc/Nj7jTg4S/sturges-hall-square.jpgn",
-        "tuition": 8927,
-        "location": "Geneseo NY 14454-1465",
-        "rating": 0
-    },
-    {
-        "title": "State University of New York at New Paltz",
-        "image": "https://i.postimg.cc/hjwDghDz/220px-Old-Main-at-SUNY-New-Paltz.jpgn",
-        "tuition": 8523,
-        "location": "New Paltz NY 12561-2443",
+        "title": "SUNY Morrisville",
+        "image": "https://i.postimg.cc/yYsxvgbn/SUNY-Morrisville-State-College-public-colleges-public-schools.jpgn",
+        "tuition": 8741,
+        "location": "Morrisville NY 13408",
         "rating": 0
     },
     {
@@ -1092,17 +1155,31 @@
         "rating": 0
     },
     {
-        "title": "State University of New York at Oswego",
-        "image": "https://i.postimg.cc/9QnCyr9x/suny-oswego0-b3535990-90d4-a280-d7467eed1481a9e7.jpgn",
-        "tuition": 8769,
-        "location": "Oswego NY 13126",
+        "title": "SUNY Polytechnic Institute",
+        "image": "https://i.postimg.cc/sDknkz5n/7519d427-3cb4-45f4-8735-b30b9a287fbd.jpgn",
+        "tuition": 8548,
+        "location": "Utica NY 13502",
         "rating": 0
     },
     {
-        "title": "SUNY College at Potsdam",
-        "image": "https://i.postimg.cc/7LJD9wMq/SUNY-Potsdam-view.jpgn",
-        "tuition": 8712,
-        "location": "Potsdam NY 13676-2294",
+        "title": "SUNY Westchester Community College",
+        "image": "https://i.postimg.cc/Pfg3cZsG/Yonkers-2.jpgn",
+        "tuition": 5374,
+        "location": "Valhalla NY 10595",
+        "rating": 0
+    },
+    {
+        "title": "SUNY at Albany",
+        "image": "https://i.postimg.cc/BvrQDXFT/image.jpgn",
+        "tuition": 10408,
+        "location": "Albany NY 12222",
+        "rating": 0
+    },
+    {
+        "title": "SUNY at Fredonia",
+        "image": "https://i.postimg.cc/gkhJzy6Y/SUNY-Fredonia.jpgn",
+        "tuition": 8760,
+        "location": "Fredonia NY 14063-1136",
         "rating": 0
     },
     {
@@ -1113,31 +1190,150 @@
         "rating": 0
     },
     {
-        "title": "SUNY College at Old Westbury",
-        "image": "https://i.postimg.cc/Mpv8ZqL1/Woodlands.jpgn",
-        "tuition": 8379,
-        "location": "Old Westbury NY 11568-0210",
+        "title": "Saint Elizabeth College of Nursing",
+        "image": "https://i.postimg.cc/ZRxvj84P/Visit-Hero.jpgn",
+        "tuition": 18750,
+        "location": "Utica NY 13501",
         "rating": 0
     },
     {
-        "title": "SUNY College at Plattsburgh",
-        "image": "https://i.postimg.cc/wjZY7nKZ/macdonough.jpgn",
-        "tuition": 8911,
-        "location": "Plattsburgh NY 12901-2681",
+        "title": "Sarah Lawrence College",
+        "image": "https://i.postimg.cc/hPLdC0jJ/Hotel-Van-Curler-Schenectady-NY.jpgn",
+        "tuition": 59470,
+        "location": "Bronxville NY 10708",
         "rating": 0
     },
     {
-        "title": "Empire State University",
-        "image": "https://i.postimg.cc/Ssp0G8xG/IMG-4929.jpgn",
-        "tuition": 7630,
-        "location": "Saratoga Springs NY 12866-4391",
+        "title": "Schenectady County Community College",
+        "image": "https://i.postimg.cc/0yL1b7Yf/482680-hero.jpgn",
+        "tuition": 5524,
+        "location": "Schenectady NY 12305",
         "rating": 0
     },
     {
-        "title": "SUNY Maritime College",
-        "image": "https://i.postimg.cc/qRcPDRtH/Fort-Schuyler-Maritime-Academy-Campus.jpgn",
-        "tuition": 8522,
-        "location": "Throggs Neck NY 10465-4198",
+        "title": "School of Visual Arts",
+        "image": "https://i.postimg.cc/YCfQ9Bmq/courtesy-of-scad-photography.jpgn",
+        "tuition": 45000,
+        "location": "New York NY 10010",
+        "rating": 0
+    },
+    {
+        "title": "Siena College",
+        "image": "https://i.postimg.cc/bNc6DLWd/195526-hero.jpgn",
+        "tuition": 40960,
+        "location": "Loudonville NY 12211-1462",
+        "rating": 0
+    },
+    {
+        "title": "Skidmore College",
+        "image": "https://i.postimg.cc/T3b8ZQF6/criminal-justice-3-1-9-li.jpgn",
+        "tuition": 60302,
+        "location": "Saratoga Springs NY 12866",
+        "rating": 0
+    },
+    {
+        "title": "St Bonaventure University",
+        "image": "https://i.postimg.cc/3NHmPshG/ogimage.jpg",
+        "tuition": 37640,
+        "location": "Saint Bonaventure NY 14778-9800",
+        "rating": 0
+    },
+    {
+        "title": "St Lawrence University",
+        "image": "https://i.postimg.cc/jd3Cfp1h/Fast-Facts.jpg",
+        "tuition": 60220,
+        "location": "Canton NY 13617",
+        "rating": 0
+    },
+    {
+        "title": "St Paul's School of Nursing-Queens",
+        "image": "https://i.postimg.cc/pXkwYfPx/img.pngn",
+        "tuition": 21270,
+        "location": "Rego Park NY 11374",
+        "rating": 0
+    },
+    {
+        "title": "St Paul's School of Nursing-Staten Island",
+        "image": "https://i.postimg.cc/LsBsMmw2/img.pngn",
+        "tuition": 18075,
+        "location": "Staten Island NY 10311",
+        "rating": 0
+    },
+    {
+        "title": "St. Francis College",
+        "image": "https://i.postimg.cc/d1kHbfkm/St-Francis-College-Science-and-Technology-Building-Remsen-St-credit-Ajay-Suresh-Wikimedia-Commons.jpgn",
+        "tuition": 27298,
+        "location": "Brooklyn NY 11201",
+        "rating": 0
+    },
+    {
+        "title": "St. John Fisher University",
+        "image": "https://i.postimg.cc/J4Z0Q3xs/Queens-9-1600x900.jpgn",
+        "tuition": 36352,
+        "location": "Rochester NY 14618-3597",
+        "rating": 0
+    },
+    {
+        "title": "St. Joseph's College of Nursing",
+        "image": "https://i.postimg.cc/GtQ869q0/image.jpg",
+        "tuition": 22454,
+        "location": "Syracuse NY 13203",
+        "rating": 0
+    },
+    {
+        "title": "St. Joseph's University-New York",
+        "image": "https://i.postimg.cc/MTsJ4SVP/195544-hero.jpg",
+        "tuition": 30576,
+        "location": "Brooklyn NY 11205-3688",
+        "rating": 0
+    },
+    {
+        "title": "St. Peter's Hospital College of Nursing",
+        "image": "https://i.postimg.cc/bNdpFyLK/St-Peters-Hospital-Albany-NY-1-300x211.jpgn",
+        "tuition": 14292,
+        "location": "Albany NY 12208",
+        "rating": 0
+    },
+    {
+        "title": "St. Thomas Aquinas College",
+        "image": "https://i.postimg.cc/Cx9mjN6R/2-Staircase.jpgn",
+        "tuition": 35300,
+        "location": "Sparkill NY 10976-1050",
+        "rating": 0
+    },
+    {
+        "title": "Stanford University",
+        "image": "https://i.postimg.cc/6p0Mym7w/20230418-Grayson-Armour-95-A1317-1536x923-1200x721.pngn",
+        "tuition": 56169,
+        "location": "Stanford CA 94305",
+        "rating": 0
+    },
+    {
+        "title": "State University of New York at New Paltz",
+        "image": "https://i.postimg.cc/hjwDghDz/220px-Old-Main-at-SUNY-New-Paltz.jpgn",
+        "tuition": 8523,
+        "location": "New Paltz NY 12561-2443",
+        "rating": 0
+    },
+    {
+        "title": "State University of New York at Oswego",
+        "image": "https://i.postimg.cc/9QnCyr9x/suny-oswego0-b3535990-90d4-a280-d7467eed1481a9e7.jpgn",
+        "tuition": 8769,
+        "location": "Oswego NY 13126",
+        "rating": 0
+    },
+    {
+        "title": "Stony Brook University",
+        "image": "https://i.postimg.cc/qBmSZWmY/campus-visit-banner.jpgn",
+        "tuition": 10455,
+        "location": "Stony Brook NY 11794-0701",
+        "rating": 0
+    },
+    {
+        "title": "Sullivan County Community College",
+        "image": "https://i.postimg.cc/vZTjshKB/exterior-1024x516.jpgn",
+        "tuition": 6308,
+        "location": "Loch Sheldrake NY 12759-5151",
         "rating": 0
     },
     {
@@ -1145,6 +1341,48 @@
         "image": "https://i.postimg.cc/j2sGpbNw/url-http-npr-brightspot-s3-amazonaws-com-2a-93-4a15e3f6491287036df2b6c0d96e-syracuse-university-s.jpgn",
         "tuition": 57591,
         "location": "Syracuse NY 13244",
+        "rating": 0
+    },
+    {
+        "title": "Temple University",
+        "image": "https://news.temple.edu/sites/news/files/styles/article_hero/public/20201010_campusaerialsrsb_001-web_res_jpeg_150_dpi_1.jpg?itok=KvvVgz-A&c=4eac051a9e4051adf94ea228fbaa8c6d",
+        "tuition": 17378,
+        "location": "Philadelphia PA 19122-6096",
+        "rating": 0
+    },
+    {
+        "title": "Texas A&M University",
+        "image": "https://i.postimg.cc/wjYRNxKY/Texas-AM-University-aerial-view-scaled-600x400.jpgn",
+        "tuition": 9093,
+        "location": "San Antonio TX 78224",
+        "rating": 0
+    },
+    {
+        "title": "The College of Westchester",
+        "image": "https://i.postimg.cc/KckpJfWr/220px-The-College-of-Westchester.jpgn",
+        "tuition": 22410,
+        "location": "White Plains NY 10606-1200",
+        "rating": 0
+    },
+    {
+        "title": "The Cooper Union for the Advancement of Science and Art",
+        "image": "https://i.postimg.cc/vH8FCqmC/220px-Cooper-Union-Cooper-Union-Academic-Building-48072701728.jpgn",
+        "tuition": 46820,
+        "location": "New York NY 10003-7120",
+        "rating": 0
+    },
+    {
+        "title": "The Juilliard School",
+        "image": "https://i.postimg.cc/tThYJX8r/2-siteaerial-2400x1350.jpgn",
+        "tuition": 51230,
+        "location": "New York NY 10023-6588",
+        "rating": 0
+    },
+    {
+        "title": "The New School",
+        "image": "https://i.postimg.cc/mD1s1n0t/SOM-New-School-James-Ewing-0138-1.jpg",
+        "tuition": 52494,
+        "location": "New York NY 10011",
         "rating": 0
     },
     {
@@ -1169,6 +1407,13 @@
         "rating": 0
     },
     {
+        "title": "Tufts University",
+        "image": "https://i.postimg.cc/fRnnzgVB/medford-somerville-campus-1400x700-0.jpgn",
+        "tuition": 63000,
+        "location": "Medford MA 02155-5555",
+        "rating": 0
+    },
+    {
         "title": "Ulster County Community College",
         "image": "https://i.postimg.cc/mZzTqPp7/image.jpg",
         "tuition": 5740,
@@ -1190,360 +1435,24 @@
         "rating": 0
     },
     {
-        "title": "Utica University",
-        "image": "https://i.postimg.cc/qRZsTc6s/academic-quad-2520x1120.jpgn",
-        "tuition": 24214,
-        "location": "Utica NY 13502-4892",
+        "title": "University at Buffalo",
+        "image": "https://i.postimg.cc/hPvWDKzc/University-at-Buffalo.pngn",
+        "tuition": 10782,
+        "location": "Buffalo NY 14260-1660",
         "rating": 0
     },
     {
-        "title": "Vassar College",
-        "image": "https://i.postimg.cc/2yb48qnP/Vassar-Postcards-20210904-KR-0122-copy.jpgn",
-        "tuition": 62870,
-        "location": "Poughkeepsie NY 12604",
+        "title": "University of Alabama",
+        "image": "https://i.postimg.cc/bN4YDmtG/troy-campus.jpgn",
+        "tuition": 11620,
+        "location": "Tuscaloosa AL 35487",
         "rating": 0
     },
     {
-        "title": "Villa Maria College",
-        "image": "https://i.postimg.cc/445QD3KN/image.jpg",
-        "tuition": 25900,
-        "location": "Buffalo NY 14225-3999",
-        "rating": 0
-    },
-    {
-        "title": "School of Visual Arts",
-        "image": "https://i.postimg.cc/YCfQ9Bmq/courtesy-of-scad-photography.jpgn",
-        "tuition": 45000,
-        "location": "New York NY 10010",
-        "rating": 0
-    },
-    {
-        "title": "Wagner College",
-        "image": "https://i.postimg.cc/CKhknrjC/1965scr.jpgn",
-        "tuition": 50330,
-        "location": "Staten Island NY 10301-4495",
-        "rating": 0
-    },
-    {
-        "title": "Webb Institute",
-        "image": "https://i.postimg.cc/Z5188BQj/Couch-Academic-Center.jpg",
-        "tuition": 56455,
-        "location": "Glen Cove NY 11542-1398",
-        "rating": 0
-    },
-    {
-        "title": "Wells College",
-        "image": "https://i.postimg.cc/3NvLNrGb/image.jpgn",
-        "tuition": 32450,
-        "location": "Aurora NY 13026-0500",
-        "rating": 0
-    },
-    {
-        "title": "The College of Westchester",
-        "image": "https://i.postimg.cc/KckpJfWr/220px-The-College-of-Westchester.jpgn",
-        "tuition": 22410,
-        "location": "White Plains NY 10606-1200",
-        "rating": 0
-    },
-    {
-        "title": "SUNY Westchester Community College",
-        "image": "https://i.postimg.cc/Pfg3cZsG/Yonkers-2.jpgn",
-        "tuition": 5374,
-        "location": "Valhalla NY 10595",
-        "rating": 0
-    },
-    {
-        "title": "Word of Life Bible Institute",
-        "image": "https://i.postimg.cc/027WqQPz/WOL4.jpgn",
-        "tuition": 11204,
-        "location": "Pottersville NY 12860-0129",
-        "rating": 0
-    },
-    {
-        "title": "Massachusetts Institute of Technology",
-        "image": "https://i.postimg.cc/htgC4Btp/1200px-MIT-Main-Campus-Aerial.jpgn",
-        "tuition": 55878,
-        "location": "Cambridge MA 02139-4307",
-        "rating": 0
-    },
-    {
-        "title": "Stanford University",
-        "image": "https://i.postimg.cc/6p0Mym7w/20230418-Grayson-Armour-95-A1317-1536x923-1200x721.pngn",
-        "tuition": 56169,
-        "location": "Stanford CA 94305",
-        "rating": 0
-    },
-    {
-        "title": "Harvard University",
-        "image": "https://i.postimg.cc/YSCbgzgF/widener.jpgn",
-        "tuition": 55587,
-        "location": "Cambridge MA 02138",
-        "rating": 0
-    },
-    {
-        "title": "California Institute of Technology",
-        "image": "https://i.postimg.cc/Twy0N2tY/xg73nnzaqnttxruvbwiu.pngn",
-        "tuition": 58680,
-        "location": "Pasadena CA 91125",
-        "rating": 0
-    },
-    {
-        "title": "University of Chicago",
-        "image": "https://i.postimg.cc/MHVDxPkC/Campus.jpgn",
-        "tuition": 62241,
-        "location": "Chicago IL 60637",
-        "rating": 0
-    },
-    {
-        "title": "Princeton University",
-        "image": "https://i.postimg.cc/NGHb1Myd/virtualtour-blairarch-1150-0.jpgn",
-        "tuition": 56010,
-        "location": "Princeton NJ 08544-0070",
-        "rating": 0
-    },
-    {
-        "title": "Columbia University",
-        "image": "https://i.postimg.cc/hPRsMBTc/maxresdefault.jpgn",
-        "tuition": 63530,
-        "location": "New York NY 10027",
-        "rating": 0
-    },
-    {
-        "title": "Yale University",
-        "image": "https://i.postimg.cc/GhRPGjnp/2010-05-10-19-03-37-central-campus-1.jpgn",
-        "tuition": 59950,
-        "location": "New Haven CT 06520",
-        "rating": 0
-    },
-    {
-        "title": "University of Pennsylvania",
-        "image": "https://i.postimg.cc/zXkCjRqF/Getty-Images-594949892.jpgn",
-        "tuition": 61710,
-        "location": "Philadelphia PA 19104-6303",
-        "rating": 0
-    },
-    {
-        "title": "University of Michigan",
-        "image": "https://i.postimg.cc/YSTY96xM/DILSlideshow-23-Aug11-017-Custom.jpgn",
-        "tuition": 16178,
-        "location": "Ann Arbor MI 48109",
-        "rating": 0
-    },
-    {
-        "title": "Johns Hopkins University",
-        "image": "https://i.postimg.cc/jSFJgHmP/gilman-quad0508.jpgn",
-        "tuition": 58720,
-        "location": "Baltimore MD 21218-2688",
-        "rating": 0
-    },
-    {
-        "title": "Northwestern University",
-        "image": "https://i.postimg.cc/13f8qgXt/campus1940-Fit-Max-Wzk3-MCw2-NTBd.jpgn",
-        "tuition": 60768,
-        "location": "Evanston IL 60208",
-        "rating": 0
-    },
-    {
-        "title": "University of California Berkeley",
-        "image": "https://i.postimg.cc/kg655kYR/better-campus-photo.jpgn",
-        "tuition": 14226,
-        "location": "Berkeley CA 94720",
-        "rating": 0
-    },
-    {
-        "title": "University of California Los Angeles",
-        "image": "https://i.postimg.cc/t4xXbF7h/Blog-Luskin.jpgn",
-        "tuition": 13258,
-        "location": "Los Angeles CA 90095",
-        "rating": 0
-    },
-    {
-        "title": "University of Wisconsin",
-        "image": "https://i.postimg.cc/SNX4Lc6w/social-card.jpgn",
-        "tuition": 10720,
-        "location": "Madison WI 53706",
-        "rating": 0
-    },
-    {
-        "title": "University of Illinois",
-        "image": "https://i.postimg.cc/90KvgNds/header-map.jpgn",
-        "tuition": 15442,
-        "location": "Champaign IL 61820",
-        "rating": 0
-    },
-    {
-        "title": "University of Washington",
-        "image": "https://i.postimg.cc/2ybtWFsG/Cherry-Blossoms-94-875x492copy.jpgn",
-        "tuition": 12076,
-        "location": "Seattle WA 98195",
-        "rating": 0
-    },
-    {
-        "title": "University of Texas at Austin",
-        "image": "https://i.postimg.cc/k4zmL49j/campus.jpgn",
-        "tuition": 11752,
-        "location": "Austin TX 78705",
-        "rating": 0
-    },
-    {
-        "title": "Duke University",
-        "image": "https://i.postimg.cc/dQCPLJJY/198419-hero.jpgn",
-        "tuition": 60244,
-        "location": "Durham NC 27708",
-        "rating": 0
-    },
-    {
-        "title": "University of California San Diego",
-        "image": "https://i.postimg.cc/dVtxmFcD/Library-Blog-Post-Feature-1920x1080-50th-1.jpgn",
-        "tuition": 14700,
-        "location": "La Jolla CA 92093",
-        "rating": 0
-    },
-    {
-        "title": "University of North Carolina",
-        "image": "https://i.postimg.cc/YCsb6mxy/Kessler-Scholars-Feature-1200x675.jpgn",
-        "tuition": 9028,
-        "location": "Chapel Hill NC 27599",
-        "rating": 0
-    },
-    {
-        "title": "Carnegie Mellon University",
-        "image": "https://i.postimg.cc/vmnL52Tc/interactive-map-icon-image.pngn",
-        "tuition": 58924,
-        "location": "Pittsburgh PA 15213-3890",
-        "rating": 0
-    },
-    {
-        "title": "University of Southern California",
-        "image": "https://i.postimg.cc/W1B0pm8j/USC-HSC-14-popup.jpgn",
-        "tuition": 61503,
-        "location": "Los Angeles CA 90089",
-        "rating": 0
-    },
-    {
-        "title": "University of Minnesota",
-        "image": "https://i.postimg.cc/43pVYK2c/University-of-Minnesota.pngn",
-        "tuition": 39410,
-        "location": "Winona MN 55987",
-        "rating": 0
-    },
-    {
-        "title": "University of Maryland",
-        "image": "https://i.postimg.cc/dVZwmGYh/The-M-10232020-SC-3084-1200x500.jpgn",
-        "tuition": 12280,
-        "location": "Baltimore MD 21250",
-        "rating": 0
-    },
-    {
-        "title": "Brown University",
-        "image": "https://i.postimg.cc/RZK2ZdmL/01-About.jpgn",
-        "tuition": 62304,
-        "location": "Providence RI 02912",
-        "rating": 0
-    },
-    {
-        "title": "Washington University in St. Louis",
-        "image": "https://i.postimg.cc/RZ7bB01P/MOF9E9-1.jpgn",
-        "tuition": 58866,
-        "location": "Saint Louis MO 63130",
-        "rating": 0
-    },
-    {
-        "title": "Ohio State University",
-        "image": "https://i.postimg.cc/nV9yWpWW/1920-ohiostatecampus-497663.jpgn",
-        "tuition": 11936,
-        "location": "Columbus OH 43210",
-        "rating": 0
-    },
-    {
-        "title": "Pennsylvania State University",
-        "image": "https://i.postimg.cc/YC0fXqnG/F5535436-B96-F-1-C02-306017921075-A3-F3-card-short.jpgn",
-        "tuition": 18898,
-        "location": "University Park PA 16802",
-        "rating": 0
-    },
-    {
-        "title": "University of Virginia",
-        "image": "https://i.postimg.cc/3RTGHKBZ/Parking.jpgn",
-        "tuition": 19244,
-        "location": "Charlottesville VA 22903",
-        "rating": 0
-    },
-    {
-        "title": "University of Pittsburgh",
-        "image": "https://i.postimg.cc/kGyzyXjY/Pitt-CMPAerial.jpgn",
-        "tuition": 20362,
-        "location": "Pittsburgh PA 15260",
-        "rating": 0
-    },
-    {
-        "title": "University of Florida",
-        "image": "https://i.postimg.cc/yYv2gx3k/university-of-florida-tour-2-1.pngn",
-        "tuition": 6381,
-        "location": "Gainesville FL 32611",
-        "rating": 0
-    },
-    {
-        "title": "University of Colorado Boulder",
-        "image": "https://i.postimg.cc/QNSfSP8z/2023-cu-home-bldr-chancellor.jpgn",
-        "tuition": 12496,
-        "location": "Boulder CO 80309-0017",
-        "rating": 0
-    },
-    {
-        "title": "Boston University",
-        "image": "https://i.postimg.cc/L6n3D80q/maxresdefault.jpgn",
-        "tuition": 59816,
-        "location": "Boston MA 02215",
-        "rating": 0
-    },
-    {
-        "title": "University of California Davis",
-        "image": "https://i.postimg.cc/d1QLrJJ4/UC-Davis.jpg",
-        "tuition": 14645,
-        "location": "Davis CA 95616",
-        "rating": 0
-    },
-    {
-        "title": "Michigan State University",
-        "image": "https://i.postimg.cc/C1hjqhqx/Michigan-State-University.pngn",
-        "tuition": 14750,
-        "location": "East Lansing MI 48824-1046",
-        "rating": 0
-    },
-    {
-        "title": "Purdue University",
-        "image": "https://i.postimg.cc/wvwD5CXc/visit-landing-banner-992.jpgn",
-        "tuition": 10125,
-        "location": "West Lafayette IN 47906",
-        "rating": 0
-    },
-    {
-        "title": "Rice University",
-        "image": "https://i.postimg.cc/GtNYVvS4/Home-Rice-Aerial-View.jpgn",
-        "tuition": 52895,
-        "location": "Houston TX 77005-1827",
-        "rating": 0
-    },
-    {
-        "title": "Emory University",
-        "image": "https://i.postimg.cc/c15QvN4d/maxresdefault.jpgn",
-        "tuition": 55468,
-        "location": "Atlanta GA 30322",
-        "rating": 0
-    },
-    {
-        "title": "Georgia Institute of Technology",
-        "image": "https://i.postimg.cc/m2z7M6tC/georgia-institute-technology-578.jpgn",
-        "tuition": 12852,
-        "location": "Atlanta GA 30332",
-        "rating": 0
-    },
-    {
-        "title": "University of Iowa",
-        "image": "https://i.postimg.cc/dtbr9myX/maxresdefault.jpgn",
-        "tuition": 9942,
-        "location": "Iowa City IA 52242-1316",
+        "title": "University of Alabama at Birmingham",
+        "image": "https://i.postimg.cc/GmyM2cWy/maxresdefault.jpgn",
+        "tuition": 8568,
+        "location": "Birmingham AL 35294-0110",
         "rating": 0
     },
     {
@@ -1554,59 +1463,24 @@
         "rating": 0
     },
     {
-        "title": "University of California Santa Barbara",
-        "image": "https://i.postimg.cc/4dx93WDK/640px-Ucsbuniversitycenterandstorketower.jpgn",
-        "tuition": 14417,
-        "location": "Santa Barbara CA 93106",
+        "title": "University of Arkansas",
+        "image": "https://i.postimg.cc/W4pJy8w1/RS24342-8836-Campus-Aerial-2013-179-visit.jpgn",
+        "tuition": 9574,
+        "location": "Fayetteville AR 72701",
         "rating": 0
     },
     {
-        "title": "University of Notre Dame",
-        "image": "https://i.postimg.cc/NFy265fB/UND-CCP-Notre-Dame-Stadium-Aerial-scaled.jpgn",
-        "tuition": 58843,
-        "location": "Notre Dame IN 46556",
+        "title": "University of California Berkeley",
+        "image": "https://i.postimg.cc/kg655kYR/better-campus-photo.jpgn",
+        "tuition": 14226,
+        "location": "Berkeley CA 94720",
         "rating": 0
     },
     {
-        "title": "University of Miami",
-        "image": "https://i.postimg.cc/GtZ8qdHY/Shalala.jpgn",
-        "tuition": 54760,
-        "location": "Coral Gables FL 33146",
-        "rating": 0
-    },
-    {
-        "title": "University of Utah",
-        "image": "https://i.postimg.cc/qM3Cgh5G/Winter-Health-Campus-View-2018-7-scaled.jpgn",
-        "tuition": 8893,
-        "location": "Salt Lake City UT 84112-9008",
-        "rating": 0
-    },
-    {
-        "title": "Texas A&M University",
-        "image": "https://i.postimg.cc/wjYRNxKY/Texas-AM-University-aerial-view-scaled-600x400.jpgn",
-        "tuition": 9093,
-        "location": "San Antonio TX 78224",
-        "rating": 0
-    },
-    {
-        "title": "Vanderbilt University",
-        "image": "https://i.postimg.cc/FK9fPPsP/Vanderbilt-Warren-and-Moore-exterior-1-Goody-Clancy.jpgn",
-        "tuition": 56966,
-        "location": "Nashville TN 37240",
-        "rating": 0
-    },
-    {
-        "title": "University of Massachusetts Amherst",
-        "image": "https://i.postimg.cc/W3zdVhZg/1200px-Umass-Amherst-Chapel-Library-in-the-evening.jpgn",
-        "tuition": 16439,
-        "location": "Amherst MA 01003",
-        "rating": 0
-    },
-    {
-        "title": "Arizona State University",
-        "image": "https://i.postimg.cc/F15z0pBV/Downtown.jpgn",
-        "tuition": 11348,
-        "location": "Tempe AZ 85287",
+        "title": "University of California Davis",
+        "image": "https://i.postimg.cc/d1QLrJJ4/UC-Davis.jpg",
+        "tuition": 14645,
+        "location": "Davis CA 95616",
         "rating": 0
     },
     {
@@ -1617,10 +1491,31 @@
         "rating": 0
     },
     {
-        "title": "Indiana University Bloomington",
-        "image": "https://i.postimg.cc/QtghRD41/Campus-Downtown-Aug2016-79-1d76e6ef-fac6-47b8-955d-484897da2260.jpgn",
-        "tuition": 11333,
-        "location": "Bloomington IN 47405",
+        "title": "University of California Los Angeles",
+        "image": "https://i.postimg.cc/t4xXbF7h/Blog-Luskin.jpgn",
+        "tuition": 13258,
+        "location": "Los Angeles CA 90095",
+        "rating": 0
+    },
+    {
+        "title": "University of California Riverside",
+        "image": "https://i.postimg.cc/BQC9sNC9/110671-hero.jpgn",
+        "tuition": 13754,
+        "location": "Riverside CA 92521",
+        "rating": 0
+    },
+    {
+        "title": "University of California San Diego",
+        "image": "https://i.postimg.cc/dVtxmFcD/Library-Blog-Post-Feature-1920x1080-50th-1.jpgn",
+        "tuition": 14700,
+        "location": "La Jolla CA 92093",
+        "rating": 0
+    },
+    {
+        "title": "University of California Santa Barbara",
+        "image": "https://i.postimg.cc/4dx93WDK/640px-Ucsbuniversitycenterandstorketower.jpgn",
+        "tuition": 14417,
+        "location": "Santa Barbara CA 93106",
         "rating": 0
     },
     {
@@ -1631,6 +1526,76 @@
         "rating": 0
     },
     {
+        "title": "University of Chicago",
+        "image": "https://i.postimg.cc/MHVDxPkC/Campus.jpgn",
+        "tuition": 62241,
+        "location": "Chicago IL 60637",
+        "rating": 0
+    },
+    {
+        "title": "University of Cincinnati",
+        "image": "https://i.postimg.cc/d0zwCt3c/1698174765547.jpgn",
+        "tuition": 28540,
+        "location": "Cincinnati OH 45221",
+        "rating": 0
+    },
+    {
+        "title": "University of Colorado Boulder",
+        "image": "https://i.postimg.cc/QNSfSP8z/2023-cu-home-bldr-chancellor.jpgn",
+        "tuition": 12496,
+        "location": "Boulder CO 80309-0017",
+        "rating": 0
+    },
+    {
+        "title": "University of Connecticut",
+        "image": "https://i.postimg.cc/CLpmzy4B/Fall-scenic-xxxxxx-998x665.jpgn",
+        "tuition": 18524,
+        "location": "Storrs CT 06269",
+        "rating": 0
+    },
+    {
+        "title": "University of Delaware",
+        "image": "https://i.postimg.cc/13NTb0Mw/University-of-Delaware.pngn",
+        "tuition": 15020,
+        "location": "Newark DE 19716",
+        "rating": 0
+    },
+    {
+        "title": "University of Florida",
+        "image": "https://i.postimg.cc/yYv2gx3k/university-of-florida-tour-2-1.pngn",
+        "tuition": 6381,
+        "location": "Gainesville FL 32611",
+        "rating": 0
+    },
+    {
+        "title": "University of Georgia",
+        "image": "https://i.postimg.cc/BvbdMWkZ/20230731-Visit-Milledgeville-Historic-Day-38-95-E70-AD1-5056-BF65-D6277-A4-C7-D8187-C0-95e70a435056bf6-95e70d9.jpgn",
+        "tuition": 12068,
+        "location": "Athens GA 30602",
+        "rating": 0
+    },
+    {
+        "title": "University of Hawaii at Manoa",
+        "image": "https://i.postimg.cc/DwrqH8VB/Hawai-i-Hall.jpgn",
+        "tuition": 12186,
+        "location": "Honolulu HI 96822-2217",
+        "rating": 0
+    },
+    {
+        "title": "University of Houston",
+        "image": "https://i.postimg.cc/x88YmJQ5/Conceptual-rendering-of-University-Drive-Courtesy-of-UH-design-LAB.jpgn",
+        "tuition": 9699,
+        "location": "Houston TX 77204-2018",
+        "rating": 0
+    },
+    {
+        "title": "University of Illinois",
+        "image": "https://i.postimg.cc/90KvgNds/header-map.jpgn",
+        "tuition": 15442,
+        "location": "Champaign IL 61820",
+        "rating": 0
+    },
+    {
         "title": "University of Illinois Chicago",
         "image": "https://i.postimg.cc/Bn5pLwVN/REC-FTile-SRF.jpgn",
         "tuition": 14126,
@@ -1638,10 +1603,73 @@
         "rating": 0
     },
     {
-        "title": "Rutgers The State University of New Jersey",
-        "image": "https://i.postimg.cc/d015bj5B/Rutgers-New-Brunswick.jpgn",
-        "tuition": 15208,
-        "location": "Newark NJ 07102",
+        "title": "University of Iowa",
+        "image": "https://i.postimg.cc/dtbr9myX/maxresdefault.jpgn",
+        "tuition": 9942,
+        "location": "Iowa City IA 52242-1316",
+        "rating": 0
+    },
+    {
+        "title": "University of Kansas",
+        "image": "https://i.postimg.cc/cJhBLgbJ/KUCampus.jpgn",
+        "tuition": 11166,
+        "location": "Lawrence KS 66045",
+        "rating": 0
+    },
+    {
+        "title": "University of Kentucky",
+        "image": "https://i.postimg.cc/6QF1c8Cz/Screenshot-2020-04-13-13-52-57.jpgn",
+        "tuition": 12610,
+        "location": "Lexington KY 40506-0032",
+        "rating": 0
+    },
+    {
+        "title": "University of Louisville",
+        "image": "https://i.postimg.cc/prwjD3Gr/media-1e84dffaeb9d22e3275e13b13e51e450fd3c38fa2.jpg",
+        "tuition": 12370,
+        "location": "Louisville KY 40292-0001",
+        "rating": 0
+    },
+    {
+        "title": "University of Maryland",
+        "image": "https://i.postimg.cc/dVZwmGYh/The-M-10232020-SC-3084-1200x500.jpgn",
+        "tuition": 12280,
+        "location": "Baltimore MD 21250",
+        "rating": 0
+    },
+    {
+        "title": "University of Massachusetts Amherst",
+        "image": "https://i.postimg.cc/W3zdVhZg/1200px-Umass-Amherst-Chapel-Library-in-the-evening.jpgn",
+        "tuition": 16439,
+        "location": "Amherst MA 01003",
+        "rating": 0
+    },
+    {
+        "title": "University of Massachusetts Boston",
+        "image": "https://i.postimg.cc/d17T91Js/url-https-cdnassets-hw-net-f9-b1-74ca28304fad9896b3ed677fe02f-elkusmanfredi-umb-reshall-03.jpgn",
+        "tuition": 14677,
+        "location": "Boston MA 02125",
+        "rating": 0
+    },
+    {
+        "title": "University of Miami",
+        "image": "https://i.postimg.cc/GtZ8qdHY/Shalala.jpgn",
+        "tuition": 54760,
+        "location": "Coral Gables FL 33146",
+        "rating": 0
+    },
+    {
+        "title": "University of Michigan",
+        "image": "https://i.postimg.cc/YSTY96xM/DILSlideshow-23-Aug11-017-Custom.jpgn",
+        "tuition": 16178,
+        "location": "Ann Arbor MI 48109",
+        "rating": 0
+    },
+    {
+        "title": "University of Minnesota",
+        "image": "https://i.postimg.cc/43pVYK2c/University-of-Minnesota.pngn",
+        "tuition": 39410,
+        "location": "Winona MN 55987",
         "rating": 0
     },
     {
@@ -1659,45 +1687,24 @@
         "rating": 0
     },
     {
-        "title": "University of Alabama",
-        "image": "https://i.postimg.cc/bN4YDmtG/troy-campus.jpgn",
-        "tuition": 11620,
-        "location": "Tuscaloosa AL 35487",
-        "rating": 0
-    },
-    {
-        "title": "North Carolina State University",
-        "image": "https://i.postimg.cc/13H9CsdF/ncstate-campus-life.jpgn",
-        "tuition": 9131,
-        "location": "Raleigh NC 27695",
-        "rating": 0
-    },
-    {
-        "title": "University of California Riverside",
-        "image": "https://i.postimg.cc/BQC9sNC9/110671-hero.jpgn",
-        "tuition": 13754,
-        "location": "Riverside CA 92521",
-        "rating": 0
-    },
-    {
-        "title": "Colorado State University",
-        "image": "https://i.postimg.cc/hj8MxZvK/23017-06907.jpgn",
-        "tuition": 12331,
-        "location": "Fort Collins CO 80523",
-        "rating": 0
-    },
-    {
-        "title": "Virginia Tech",
-        "image": "https://i.postimg.cc/kg4npkPh/image.jpgn",
-        "tuition": 14174,
-        "location": "Blacksburg VA 24061",
-        "rating": 0
-    },
-    {
         "title": "University of New Mexico",
         "image": "https://i.postimg.cc/8PfshKVQ/media-124939b8b8b50bbccb5e176cfff3f00370cf5b2e7.jpg",
         "tuition": 7905,
         "location": "Albuquerque NM 87106",
+        "rating": 0
+    },
+    {
+        "title": "University of North Carolina",
+        "image": "https://i.postimg.cc/YCsb6mxy/Kessler-Scholars-Feature-1200x675.jpgn",
+        "tuition": 9028,
+        "location": "Chapel Hill NC 27599",
+        "rating": 0
+    },
+    {
+        "title": "University of Notre Dame",
+        "image": "https://i.postimg.cc/NFy265fB/UND-CCP-Notre-Dame-Stadium-Aerial-scaled.jpgn",
+        "tuition": 58843,
+        "location": "Notre Dame IN 46556",
         "rating": 0
     },
     {
@@ -1708,101 +1715,31 @@
         "rating": 0
     },
     {
-        "title": "Florida State University",
-        "image": "https://i.postimg.cc/RFmyjHnV/Visit-Banner2.jpgn",
-        "tuition": 5656,
-        "location": "Tallahassee FL 32306-1037",
+        "title": "University of Oregon",
+        "image": "https://i.postimg.cc/rm8RvJGp/header-test.jpgn",
+        "tuition": 14421,
+        "location": "Eugene OR 97403",
         "rating": 0
     },
     {
-        "title": "Dartmouth College",
-        "image": "https://i.postimg.cc/2jc9xJT5/Dartmouth-by-Brave-Sir-Robin-2.jpgn",
-        "tuition": 60870,
-        "location": "Hanover NH 03755-3529",
+        "title": "University of Pennsylvania",
+        "image": "https://i.postimg.cc/zXkCjRqF/Getty-Images-594949892.jpgn",
+        "tuition": 61710,
+        "location": "Philadelphia PA 19104-6303",
         "rating": 0
     },
     {
-        "title": "University of Kansas",
-        "image": "https://i.postimg.cc/cJhBLgbJ/KUCampus.jpgn",
-        "tuition": 11166,
-        "location": "Lawrence KS 66045",
+        "title": "University of Pittsburgh",
+        "image": "https://i.postimg.cc/kGyzyXjY/Pitt-CMPAerial.jpgn",
+        "tuition": 20362,
+        "location": "Pittsburgh PA 15260",
         "rating": 0
     },
     {
-        "title": "University of Vermont",
-        "image": "https://i.postimg.cc/T3qjyp3B/botstory2-11-1149x647.pngn",
-        "tuition": 19002,
-        "location": "Burlington VT 05405-0160",
-        "rating": 0
-    },
-    {
-        "title": "University of Massachusetts Boston",
-        "image": "https://i.postimg.cc/d17T91Js/url-https-cdnassets-hw-net-f9-b1-74ca28304fad9896b3ed677fe02f-elkusmanfredi-umb-reshall-03.jpgn",
-        "tuition": 14677,
-        "location": "Boston MA 02125",
-        "rating": 0
-    },
-    {
-        "title": "University of Tennessee",
-        "image": "https://i.postimg.cc/1XQ5N5tY/Ayres1.jpgn",
-        "tuition": 13244,
-        "location": "Knoxville TN 37996",
-        "rating": 0
-    },
-    {
-        "title": "University of Delaware",
-        "image": "https://i.postimg.cc/13NTb0Mw/University-of-Delaware.pngn",
-        "tuition": 15020,
-        "location": "Newark DE 19716",
-        "rating": 0
-    },
-    {
-        "title": "University of Connecticut",
-        "image": "https://i.postimg.cc/CLpmzy4B/Fall-scenic-xxxxxx-998x665.jpgn",
-        "tuition": 18524,
-        "location": "Storrs CT 06269",
-        "rating": 0
-    },
-    {
-        "title": "Case Western Reserve University",
-        "image": "https://i.postimg.cc/7Z67LXjJ/campus-aerial-pbl-news.jpgn",
-        "tuition": 54532,
-        "location": "Cleveland OH 44106",
-        "rating": 0
-    },
-    {
-        "title": "Iowa State University",
-        "image": "https://i.postimg.cc/BZpX1HTT/wall-campanile.jpgn",
-        "tuition": 9634,
-        "location": "Ames IA 50011-2103",
-        "rating": 0
-    },
-    {
-        "title": "University of Houston",
-        "image": "https://i.postimg.cc/x88YmJQ5/Conceptual-rendering-of-University-Drive-Courtesy-of-UH-design-LAB.jpgn",
-        "tuition": 9699,
-        "location": "Houston TX 77204-2018",
-        "rating": 0
-    },
-    {
-        "title": "Tufts University",
-        "image": "https://i.postimg.cc/fRnnzgVB/medford-somerville-campus-1400x700-0.jpgn",
-        "tuition": 63000,
-        "location": "Medford MA 02155-5555",
-        "rating": 0
-    },
-    {
-        "title": "University of Georgia",
-        "image": "https://i.postimg.cc/BvbdMWkZ/20230731-Visit-Milledgeville-Historic-Day-38-95-E70-AD1-5056-BF65-D6277-A4-C7-D8187-C0-95e70a435056bf6-95e70d9.jpgn",
-        "tuition": 12068,
-        "location": "Athens GA 30602",
-        "rating": 0
-    },
-    {
-        "title": "University of Kentucky",
-        "image": "https://i.postimg.cc/6QF1c8Cz/Screenshot-2020-04-13-13-52-57.jpgn",
-        "tuition": 12610,
-        "location": "Lexington KY 40506-0032",
+        "title": "University of Rochester",
+        "image": "https://i.postimg.cc/mrdKfMdR/river-campus.jpgn",
+        "tuition": 59378,
+        "location": "Rochester NY 14627-0011",
         "rating": 0
     },
     {
@@ -1813,6 +1750,111 @@
         "rating": 0
     },
     {
+        "title": "University of Southern California",
+        "image": "https://i.postimg.cc/W1B0pm8j/USC-HSC-14-popup.jpgn",
+        "tuition": 61503,
+        "location": "Los Angeles CA 90089",
+        "rating": 0
+    },
+    {
+        "title": "University of Tennessee",
+        "image": "https://i.postimg.cc/1XQ5N5tY/Ayres1.jpgn",
+        "tuition": 13244,
+        "location": "Knoxville TN 37996",
+        "rating": 0
+    },
+    {
+        "title": "University of Texas at Austin",
+        "image": "https://i.postimg.cc/k4zmL49j/campus.jpgn",
+        "tuition": 11752,
+        "location": "Austin TX 78705",
+        "rating": 0
+    },
+    {
+        "title": "University of Utah",
+        "image": "https://i.postimg.cc/qM3Cgh5G/Winter-Health-Campus-View-2018-7-scaled.jpgn",
+        "tuition": 8893,
+        "location": "Salt Lake City UT 84112-9008",
+        "rating": 0
+    },
+    {
+        "title": "University of Vermont",
+        "image": "https://i.postimg.cc/T3qjyp3B/botstory2-11-1149x647.pngn",
+        "tuition": 19002,
+        "location": "Burlington VT 05405-0160",
+        "rating": 0
+    },
+    {
+        "title": "University of Virginia",
+        "image": "https://i.postimg.cc/3RTGHKBZ/Parking.jpgn",
+        "tuition": 19244,
+        "location": "Charlottesville VA 22903",
+        "rating": 0
+    },
+    {
+        "title": "University of Washington",
+        "image": "https://i.postimg.cc/2ybtWFsG/Cherry-Blossoms-94-875x492copy.jpgn",
+        "tuition": 12076,
+        "location": "Seattle WA 98195",
+        "rating": 0
+    },
+    {
+        "title": "University of Wisconsin",
+        "image": "https://i.postimg.cc/SNX4Lc6w/social-card.jpgn",
+        "tuition": 10720,
+        "location": "Madison WI 53706",
+        "rating": 0
+    },
+    {
+        "title": "Utica University",
+        "image": "https://i.postimg.cc/qRZsTc6s/academic-quad-2520x1120.jpgn",
+        "tuition": 24214,
+        "location": "Utica NY 13502-4892",
+        "rating": 0
+    },
+    {
+        "title": "Vanderbilt University",
+        "image": "https://i.postimg.cc/FK9fPPsP/Vanderbilt-Warren-and-Moore-exterior-1-Goody-Clancy.jpgn",
+        "tuition": 56966,
+        "location": "Nashville TN 37240",
+        "rating": 0
+    },
+    {
+        "title": "Vassar College",
+        "image": "https://i.postimg.cc/2yb48qnP/Vassar-Postcards-20210904-KR-0122-copy.jpgn",
+        "tuition": 62870,
+        "location": "Poughkeepsie NY 12604",
+        "rating": 0
+    },
+    {
+        "title": "Vaughn College of Aeronautics and Technology",
+        "image": "https://i.postimg.cc/RFmCrpcn/Vaughn-College-FBOG.jpgn",
+        "tuition": 26150,
+        "location": "Flushing NY 11369",
+        "rating": 0
+    },
+    {
+        "title": "Villa Maria College",
+        "image": "https://i.postimg.cc/445QD3KN/image.jpg",
+        "tuition": 25900,
+        "location": "Buffalo NY 14225-3999",
+        "rating": 0
+    },
+    {
+        "title": "Virginia Tech",
+        "image": "https://i.postimg.cc/kg4npkPh/image.jpgn",
+        "tuition": 14174,
+        "location": "Blacksburg VA 24061",
+        "rating": 0
+    },
+    {
+        "title": "Wagner College",
+        "image": "https://i.postimg.cc/CKhknrjC/1965scr.jpgn",
+        "tuition": 50330,
+        "location": "Staten Island NY 10301-4495",
+        "rating": 0
+    },
+    {
         "title": "Wake Forest University",
         "image": "https://i.postimg.cc/rwKJH8VH/Wake-Forest-University-ZSR-Library-CROPPED-scaled.jpgn",
         "tuition": 59770,
@@ -1820,80 +1862,38 @@
         "rating": 0
     },
     {
-        "title": "University of Oregon",
-        "image": "https://i.postimg.cc/rm8RvJGp/header-test.jpgn",
-        "tuition": 14421,
-        "location": "Eugene OR 97403",
+        "title": "Washington University in St. Louis",
+        "image": "https://i.postimg.cc/RZ7bB01P/MOF9E9-1.jpgn",
+        "tuition": 58866,
+        "location": "Saint Louis MO 63130",
         "rating": 0
     },
     {
-        "title": "University of Arkansas",
-        "image": "https://i.postimg.cc/W4pJy8w1/RS24342-8836-Campus-Aerial-2013-179-visit.jpgn",
-        "tuition": 9574,
-        "location": "Fayetteville AR 72701",
+        "title": "Webb Institute",
+        "image": "https://i.postimg.cc/Z5188BQj/Couch-Academic-Center.jpg",
+        "tuition": 56455,
+        "location": "Glen Cove NY 11542-1398",
         "rating": 0
     },
     {
-        "title": "University of Cincinnati",
-        "image": "https://i.postimg.cc/d0zwCt3c/1698174765547.jpgn",
-        "tuition": 28540,
-        "location": "Cincinnati OH 45221",
+        "title": "Wells College",
+        "image": "https://i.postimg.cc/3NvLNrGb/image.jpgn",
+        "tuition": 32450,
+        "location": "Aurora NY 13026-0500",
         "rating": 0
     },
     {
-        "title": "Kansas State University",
-        "image": "https://i.postimg.cc/QtkwMXWb/masthead-visit-k-state.jpgn",
-        "tuition": 10420,
-        "location": "Manhattan KS 66506",
+        "title": "Word of Life Bible Institute",
+        "image": "https://i.postimg.cc/027WqQPz/WOL4.jpgn",
+        "tuition": 11204,
+        "location": "Pottersville NY 12860-0129",
         "rating": 0
     },
     {
-        "title": "University of Alabama at Birmingham",
-        "image": "https://i.postimg.cc/GmyM2cWy/maxresdefault.jpgn",
-        "tuition": 8568,
-        "location": "Birmingham AL 35294-0110",
+        "title": "Yale University",
+        "image": "https://i.postimg.cc/GhRPGjnp/2010-05-10-19-03-37-central-campus-1.jpgn",
+        "tuition": 59950,
+        "location": "New Haven CT 06520",
         "rating": 0
-    },
-    {
-        "title": "University of Hawaii at Manoa",
-        "image": "https://i.postimg.cc/DwrqH8VB/Hawai-i-Hall.jpgn",
-        "tuition": 12186,
-        "location": "Honolulu HI 96822-2217",
-        "rating": 0
-    },
-    {
-        "title": "George Washington University",
-        "image": "https://i.postimg.cc/FKnggwX4/Foggy-Bottom-Campus-Life-fallstock15-up-2015-ZWM-9934-1.jpgn",
-        "tuition": 59870,
-        "location": "Washington DC 20052",
-        "rating": 0
-    },
-    {
-        "title": "University of Louisville",
-        "image": "https://i.postimg.cc/prwjD3Gr/media-1e84dffaeb9d22e3275e13b13e51e450fd3c38fa2.jpg",
-        "tuition": 12370,
-        "location": "Louisville KY 40292-0001",
-        "rating": 0
-    },
-    {
-        "title": "Baylor University",
-        "image": "https://i.postimg.cc/52Qx2C9S/VISIT-CONFIRMATION-PAGE-1000x333.jpgn",
-        "tuition": 50232,
-        "location": "Waco TX 76798",
-        "rating": 0
-    },
-    {
-        "title": "Oregon State University",
-        "image": "https://i.postimg.cc/BQ1y8cDb/sign-entrance-reser-stadium.jpgn",
-        "tuition": 12188,
-        "location": "Corvallis OR 97331",
-        "rating": 0
-    },
-    {
-        "title": "Temple University",
-        "image": "https://news.temple.edu/sites/news/files/styles/article_hero/public/20201010_campusaerialsrsb_001-web_res_jpeg_150_dpi_1.jpg?itok=KvvVgz-A&c=4eac051a9e4051adf94ea228fbaa8c6d",
-        "tuition": 17378,
-        "location": "Philadelphia PA 19122-6096",
-        "rating": 0
-      }
+    }
 ]
