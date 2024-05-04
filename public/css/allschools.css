@@ -131,12 +131,12 @@
 
 #boxes .container .box .info {
   color: #222831;
-  padding: 15px 15px 30px 13px;
-  margin-top: auto;
+  padding: 15px 15px 30px 13px; 
+  margin-top: auto; 
 }
 
 #boxes .container .box .info .title {
-  font-size: 1.1rem;
+  font-size: .9rem;
   font-weight: 600;
 }
 

@@ -46,14 +46,29 @@
 
 }
 
-
 .alert-danger.active {
     transform: translateY(52px);
   
       
   }
+
+
+
+  .alert-danger.showactive {
+    transform: translateY(-57px);
+  
+      
+  }
+
+
   
   
   .alert-danger button {
       display: none;
+  }
+
+  .forflasherror {
+    transform: translateY(-38px);
+    /* height: 20px;
+    position: relative; */
   }

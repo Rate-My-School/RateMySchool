@@ -70,6 +70,10 @@ app.get("/", (req, res) => {
   res.render("home");
 });
 
+app.get("/map", (req, res) => {
+  res.render("map");
+});
+
 app.use("/", userRoutes);
 app.use("/schools", schoolRoutes);
 app.use("/schools/:id/reviews", reviewRoutes);

@@ -26,7 +26,7 @@ const findUserReviews = async (req, res, next) => {
     if ((school.reviews[i].author.equals(req.user._id)) && (!req.user.isAdmin)) {
       exists = true
       console.log("USER ALREADY HAS REVIEW")
-      req.flash("error", "You already have a review! Please delete your current one to post another!");
+      req.flash("error", "You already have a review!");
       return res.redirect(`/schools/${school._id}`);
     }
 

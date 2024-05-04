@@ -10,6 +10,14 @@ if (danger.classList.contains("active")){
     }, 2000)
 }
 
+if (danger.classList.contains("showactive")){
+    setTimeout(() => {
+         danger.classList.remove("showactive")
+    }, 2000)
+}
+
+
+
 
 
 
