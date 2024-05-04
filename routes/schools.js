@@ -6,6 +6,15 @@ const School = require("../models/schools");
 const { schoolSchema } = require("../schemas.js");
 const { isLoggedIn, isAuthor } = require("../utils/middleware.js");
 
+const mbxGeocoding = require("@mapbox/mapbox-sdk/services/geocoding")
+
+const mapBoxToken = process.env.MAPBOX_TOKEN;
+
+const geocoder = mbxGeocoding({accessToken: mapBoxToken})
+
+
+
+
 const schoolValidator = (req, res, next) => {
   const { error } = schoolSchema.validate(req.body);
   if (error) {
@@ -33,9 +42,15 @@ router.post(
   isLoggedIn,
   schoolValidator,
   wrapAsync(async (req, res) => {
+    const geoData = await geocoder.forwardGeocode({
+      query: req.body.school.location,
+      limit: 1
+    }).send()
     const school = new School(req.body.school);
+    school.geometry = geoData.body.features[0].geometry
     school.author = req.user._id;
     await school.save();
+    // console.log(school)
     req.flash("success", "Successfully added a new School!");
     res.redirect(`/schools/${school._id}`);
   })

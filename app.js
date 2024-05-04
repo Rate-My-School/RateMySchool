@@ -11,6 +11,7 @@ const flash = require("connect-flash");
 const User = require("./models/users.js");
 const passport = require("passport");
 const localStrategy = require("passport-local");
+require('dotenv').config()
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
