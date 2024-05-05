@@ -7,6 +7,17 @@ const SchoolSchema = new Schema({
   image: String,
   tuition: Number,
   // descritption: String,
+  geometry: {
+    type: {
+      type: String, 
+      enum: ['Point'],
+      required: true
+    },
+    coordinates: {
+      type: [Number],
+      required: true
+    }
+  },
   rating: Number,
   location: String,
   author: {

@@ -7,11 +7,19 @@ const map = new mapboxgl.Map({
     container: 'map',
     // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
     style: 'mapbox://styles/mapbox/streets-v12',
-    center: [12.550343, 55.665957],
-    zoom: 8
+    center: schools.geometry.coordinates,
+    zoom: 12
 });
 
 
 const marker1 = new mapboxgl.Marker()
-.setLngLat([12.554729, 55.70651])
+.setLngLat(schools.geometry.coordinates)
+.setPopup(
+    new mapboxgl.Popup({ closeOnClick: true, offset: 25, closeButton: false})
+    .setHTML(`<h3>${schools.title}<h3/>`)
+   
+
+)
 .addTo(map);
+
+

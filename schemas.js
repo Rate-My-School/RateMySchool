@@ -4,17 +4,6 @@ module.exports.schoolSchema = Joi.object({
     title: Joi.string().required(),
     tuition: Joi.number().required().min(0),
     image: Joi.string().required(),
-    geometry: {
-      type: {
-        type: Joi.string().required(), 
-        enum: ['Point'],
-        required: true
-      },
-      coordinates: {
-        type: [Number],
-        required: true
-      }
-    },
     location: Joi.string().required(),
     rating: Joi.number().min(1).max(5).empty(3),
     //description: Joi.string().required()
