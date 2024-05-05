@@ -33,28 +33,28 @@ router.get(
   })
 );
 
-router.get("/new", isLoggedIn, (req, res) => {
-  res.render("schools/new");
-});
+// router.get("/new", isLoggedIn, (req, res) => {
+//   res.render("schools/new");
+// });
 
-router.post(
-  "/",
-  isLoggedIn,
-  schoolValidator,
-  wrapAsync(async (req, res) => {
-    const geoData = await geocoder.forwardGeocode({
-      query: req.body.school.location,
-      limit: 1
-    }).send()
-    const school = new School(req.body.school);
-    school.geometry = geoData.body.features[0].geometry
-    school.author = req.user._id;
-    await school.save();
-    // console.log(school)
-    req.flash("success", "Successfully added a new School!");
-    res.redirect(`/schools/${school._id}`);
-  })
-);
+// router.post(
+//   "/",
+//   isLoggedIn,
+//   schoolValidator,
+//   wrapAsync(async (req, res) => {
+//     const geoData = await geocoder.forwardGeocode({
+//       query: req.body.school.location,
+//       limit: 1
+//     }).send()
+//     const school = new School(req.body.school);
+//     school.geometry = geoData.body.features[0].geometry
+//     school.author = req.user._id;
+//     await school.save();
+//     // console.log(school)
+//     req.flash("success", "Successfully added a new School!");
+//     res.redirect(`/schools/${school._id}`);
+//   })
+// );
 
 router.get(
   "/:id",
